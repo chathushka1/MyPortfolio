@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Assignment</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <style>
+        section>div {
+            width: 100%;
+            height: 100%;
+            background: red;
+        }
+
+        .rectangle1{
+            position: absolute;
+            width: 50%;
+            height: 50%;
+            left: 0;
+            top: 0;
+            background: red;
+        }
+        .rectangle2{
+            position: absolute;
+            width: 50%;
+            height: 50%;
+            right: 0;
+            top: 0;
+            background: green;
+        }
+
+        .rectangle3{
+            position: absolute;
+            width: 50%;
+            height: 50%;
+            left: 0;
+            bottom: 0;
+            background: orange;
+        }
+        .rectangle4{
+            position: absolute;
+            width: 50%;
+            height: 50%;
+            right: 0;
+            bottom: 0;
+            background: deeppink;
+        }
+        .rectangle5{
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background: white;
+        }
+
+
+        .circle1{
+            position: absolute;
+            border-radius: 100%;
+            width: 150px;
+            height: 150px;
+            font-size: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+            background: white;
+        }
+        .circle2{
+            position: absolute;
+            border-radius: 100%;
+            width: 150px;
+            height: 150px;
+            font-size: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+            background: white;
+        }
+        .circle3{
+            position: absolute;
+            border-radius: 100%;
+            width: 150px;
+            height: 150px;
+            font-size: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+            background: white;
+        }
+        .circle4{
+            position: absolute;
+            border-radius: 100%;
+            width: 150px;
+            height: 150px;
+            font-size: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+            background: white;
+        }
+        .circle5{
+            position: absolute;
+            border-radius: 100%;
+            width: 100px;
+            height: 100px;
+            font-size: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+            background: red;
+        }
+        .redRectangle1{
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            font-size: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+            background: red;
+        }
+        .redRectangle2{
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            font-size: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+            background: red;
+        }
+        .redRectangle3{
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            font-size: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+            background: red;
+        }
+
+        .redRectangle4{
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            font-size: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+            background: red;
+        }
+
+        section>div>div>div:first-child{
+            border-bottom-right-radius: 100px;
+            width: 70px;
+            height: 70px;
+            position: absolute;
+            background-color: white;
+            left: 0;
+            top: 0;
+        }
+
+        section>div>div>div:nth-child(2){
+            border-bottom-left-radius: 100px;
+            width: 70px;
+            height: 70px;
+            position: absolute;
+            background-color: white;
+            right: 0;
+            top: 0;
+        }
+
+        section>div>div>div:nth-child(3){
+            border-top-right-radius: 100px;
+            width: 70px;
+            height: 70px;
+            position: absolute;
+            background-color: white;
+            left: 0;
+            bottom: 0;
+        }
+
+        section>div>div>div:nth-child(4){
+            border-top-left-radius: 100px;
+            width: 70px;
+            height: 70px;
+            position: absolute;
+            background-color: white;
+            right: 0;
+            bottom: 0;
+        }
+
+        section>div>div>div:nth-child(5){
+            border-top-left-radius: 100px;
+            border-top-right-radius: 100px;
+            width: 140px;
+            height: 70px;
+            position: absolute;
+            background-color: white;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        section>div>div>div:nth-child(6){
+            border-radius: 100px;
+            width: 140px;
+            height: 140px;
+            position: absolute;
+            background-color: white;
+            right: 0;
+            left: 0;
+            top: -70px;
+            margin: auto;
+        }
+
+        section>div>div>div:nth-child(7){
+            border-bottom-left-radius: 100px;
+            border-top-left-radius: 100px;
+            width: 70px;
+            height: 140px;
+            position: absolute;
+            background-color: white;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+        }
+
+        section>div>div>div:nth-child(8){
+            border-radius: 100px;
+            width: 140px;
+            height: 140px;
+            position: absolute;
+            background-color: white;
+            left: -70px;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+        }
+
+    </style>
+</head>
+<body>
+<section>
+    <div class="rectangle1" >
+        <div class="circle1"></div>
+        <div class="redRectangle1"></div>
+    </div>
+
+     <div class="rectangle2">
+         <div class="circle2"></div>
+         <div class="redRectangle2"></div>
+     </div>
+
+    <div class="rectangle3">
+        <div class="circle3"></div>
+        <div class="redRectangle3"></div>
+    </div>
+
+    <div class="rectangle4">
+        <div class="circle4"></div>
+        <div class="redRectangle4"></div>
+    </div>
+
+    <div class="rectangle5"></div>
+    <div class="circle5"></div>
+
+    <div>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</section>
+
+<!------------------------>
+
+<section>
+    <div class="rectangle1" >
+        <div class="circle1"></div>
+        <div class="redRectangle1"></div>
+    </div>
+
+    <div class="rectangle2">
+        <div class="circle2"></div>
+        <div class="redRectangle2"></div>
+    </div>
+
+    <div class="rectangle3">
+        <div class="circle3"></div>
+        <div class="redRectangle3"></div>
+    </div>
+
+    <div class="rectangle4">
+        <div class="circle4"></div>
+        <div class="redRectangle4"></div>
+    </div>
+
+    <div class="rectangle5"></div>
+    <div class="circle5"></div>
+
+    <div>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
