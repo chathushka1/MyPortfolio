@@ -6,12 +6,38 @@
     --text-black-900:#302e4d;
     --text-black-700:#504e70;
 }
-.backgroundimg{
-    /*
+body{
+    margin: 0;
+    padding: 0;
+}
+body>main>section{
+    /*background-image: url("../image/BackgroundRo.png");*/
+    background-color: #2C3333;
+}
+/*.backgroundimg{
+    !*
     background-image: url("../image/BackgroundRo.png");
-    */
+    *!
+    width: 100%;
     background-size: cover;
     background-position: center;
+}*/
+
+.container .name1{
+
+    position: relative;
+    font-size: 30px ;
+    color: red;
+    left: 180px;
+    top: 600px;
+
+}
+
+.container .name2{
+    position: relative;
+    left: 120px;
+    top: 650px;
+
 }
 
 .profileImg {
@@ -206,10 +232,10 @@
     margin: auto;
     background: brown;
 }
-.hh2{
+/*.hh2{
     font-family: Arial;
     color: red;
     font-size: 32px;
     left: 100px;
     top: 550px;
-}
+}*/
