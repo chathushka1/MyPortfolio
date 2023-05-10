@@ -7,7 +7,9 @@
     --text-black-700:#504e70;
 }
 .backgroundimg{
+    /*
     background-image: url("../image/BackgroundRo.png");
+    */
     background-size: cover;
     background-position: center;
 }
@@ -180,7 +182,7 @@
 .square5{
     position: absolute;
     width: 10px;
-    height: 420px;
+    height: 780px;
     left: 1321px;
     top: 745px;
     margin: auto;
@@ -195,10 +197,19 @@
     margin: auto;
     background: brown;
 }
+.square7{
+    position: absolute;
+    width: 1311px;
+    height: 10px;
+    left: 20px;
+    top: 1525px;
+    margin: auto;
+    background: brown;
+}
 .hh2{
     font-family: Arial;
     color: red;
     font-size: 32px;
     left: 100px;
-    top:300px;
+    top: 550px;
 }
