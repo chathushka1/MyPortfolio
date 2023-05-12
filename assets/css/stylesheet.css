@@ -10,7 +10,7 @@ body{
     margin: 0;
     padding: 0;
 }
-body>main>section{
+body{
     /*background-image: url("../image/BackgroundRo.png");*/
     background-color: #2C3333;
 }
@@ -23,21 +23,30 @@ body>main>section{
     background-position: center;
 }*/
 
-.container .name1{
+.container .name1 {
 
     position: relative;
-    font-size: 30px ;
+    font-size: 70px;
     color: red;
-    left: 180px;
-    top: 600px;
-
+    left: 130px;
+    top: 520px;
 }
+
 
 .container .name2{
     position: relative;
-    left: 120px;
-    top: 650px;
+    font-size: 70px;
+    left: 175px;
+    top: 480px;
+    color: red;
 
+}
+.container .nameAbout{
+    position: relative;
+    font-size: 40px;
+    left: 100px;
+    top: 450px;
+    color: black;
 }
 
 .profileImg {
