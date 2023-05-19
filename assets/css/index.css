@@ -1,0 +1,280 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+
+
+nav {
+    position: absolute;
+    right: 5vw;
+}
+menu a {
+    color: #ffeee8;
+    margin-left:30px;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+menu a:hover{
+    /*font-size: 15px;*/
+    color: #DCD7C9;
+}
+
+nav li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+
+}
+
+nav li a:hover {
+    background-color: #ddd;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color:#2C3639;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+header {
+    margin: 0;
+    /*width: 100vw;*/
+    background-color: #3F4E4F;
+    display: flex;
+    align-items: center;
+    padding: 30px 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mainSection{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#mainPage .name1 {
+
+    position: relative;
+    font-size: 70px;
+    color: #A27B5C;
+    left: 130px;
+    top: 540px;
+}
+
+
+#mainPage .name2{
+    position: relative;
+    font-size: 70px;
+    left: 175px;
+    top: 500px;
+    color: #A27B5C;
+
+}
+#mainPage .nameAbout{
+    position: relative;
+    font-size: 40px;
+    left: 100px;
+    top: 450px;
+    color: #DCD7C9;
+}
+.profileImg {
+    position: absolute;
+    border-radius: 50%;
+    height: 500px;
+    left: 80px;
+    top: 20px;
+    margin: auto;
+}
+.gitHubImg{
+    position: absolute;
+    border-radius: 100%;
+    height: 86px;
+    width: 86px;
+    left: 679px;
+    top: 251px;
+    margin: auto;
+}
+
+.whiteCircleGitHub{
+    position: absolute;
+    border-radius: 100%;
+    width: 89px;
+    height: 89px;
+    left: 678px;
+    top: 250px;
+    margin: auto;
+    background: white;
+}
+.facebookImg{
+    position: absolute;
+    border-radius: 100%;
+    height: 85px;
+    width: 85px;
+    left: 910px;
+    top: 253px;
+    margin: auto;
+}
+.whiteCircleFB{
+    position: absolute;
+    border-radius: 100%;
+    width: 89px;
+    height: 89px;
+    left: 908px;
+    top: 251px;
+    margin: auto;
+    background: white;
+}
+.twitterImage{
+    position: absolute;
+    border-radius: 100%;
+    height: 85px;
+    width:85px;
+    left: 1144px;
+    top: 252px;
+    margin: auto;
+}
+.whiteCircleTwitter {
+    position: absolute;
+    border-radius: 100%;
+    width: 89px;
+    height: 89px;
+    left: 1142px;
+    top: 250px;
+    margin: auto;
+    background: white;
+}
+
+.linkedInImg{
+    position: absolute;
+    border-radius: 100%;
+    height: 85px;
+    width: 85px;
+    left: 679px;
+    top: 422px;
+    margin: auto;
+}
+
+.whiteCircleLinkedIn{
+    position: absolute;
+    border-radius: 100%;
+    width: 89px;
+    height: 89px;
+    left: 677px;
+    top: 420px;
+    margin: auto;
+    background: white;
+}
+.instergramImg{
+    position: absolute;
+    border-radius: 100%;
+    height: 85px;
+    width: 85px;
+    left: 911px;
+    top: 422px;
+    margin: auto;
+}
+.whiteCircleInstergram{
+    position: absolute;
+    border-radius: 100%;
+    width: 89px;
+    height: 89px;
+    left: 908px;
+    top: 420px;
+    margin: auto;
+    background: white;
+}
+.whatsappImage{
+    position: absolute;
+    border-radius: 100%;
+    height: 85px;
+    width: 85px;
+    left: 1144px;
+    top: 420px;
+    margin: auto;
+}
+.whiteCircleWhatsApp{
+    position: absolute;
+    border-radius: 100%;
+    width: 89px;
+    height: 89px;
+    left: 1141px;
+    top: 418px;
+    margin: auto;
+    background: white;
+}
+
+.square1{
+    position: absolute;
+    width: 1311px;
+    height: 10px;
+    left: 20px;
+    top: 950px;
+    margin: auto;
+    background: brown;
+}
+.square2{
+    position: absolute;
+    width: 10px;
+    height: 600px;
+    left: 1321px;
+    top: 950px;
+    margin: auto;
+    background: brown;
+}
+.square3{
+    position: absolute;
+    width: 10px;
+    height: 600px;
+    left: 20px;
+    top: 950px;
+    margin: auto;
+    background: brown;
+}
+.square4{
+    position: absolute;
+    width: 1311px;
+    height: 10px;
+    left: 20px;
+    top: 1525px;
+    margin: auto;
+    background: brown;
+}
+/*.blackSquare{
+    position: absolute;
+    width: 750px;
+    height: 750px;
+    left: 150px;
+    top: 150px;
+    margin: auto;
+    background: brown;
+}*/
+#DetailArticle{
+    position: relative;
+    font-size: 25px;
+    left: 75px;
+    top:120px;
+    color: white;
+}
+#DetailArticle2{
+    position: absolute;
+    font-size: 25px;
+    left: 450px;
+    top:25vh;
+    color: white;
+}
+#Skills{
+    width: 100vw;
+    height: 100vh;
+}

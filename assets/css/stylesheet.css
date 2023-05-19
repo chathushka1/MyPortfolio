@@ -23,6 +23,38 @@ body{
     background-position: center;
 }*/
 
+#home {
+    z-index: 0;
+    position: relative;
+
+}
+nav a#logo,
+#ham-menu {
+    font-size: 1.8rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav ul {
+    z-index: 1;
+    background-color: #3FD289;
+    position: fixed;
+    left: -100vw;
+    top: 52.6px;
+    width: 100vw;
+    height: calc(100vh - 52.6px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: 1s;
+    gap: 0;
+}
+nav ul a:hover {
+    border-bottom: 2px solid #2a5928;
+    /*font-size: 2rem;*/
+
+    color: #ffffff;
+}
 .container .name1 {
 
     position: relative;
@@ -46,7 +78,7 @@ body{
     font-size: 40px;
     left: 100px;
     top: 450px;
-    color: black;
+    color: white;
 }
 
 .profileImg {
