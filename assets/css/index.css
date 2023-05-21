@@ -78,11 +78,32 @@ header {
 }
 
 
-#mainPage .name2{
+.social-media{
     position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.social-media img{
+    width: 40px;
+}
+
+.social-media figure img{
+    margin-right: 20px;
+    transition: all 0.5s ease;
+}
+
+/*.social-media:hover
+{
+    transform: scale(1.05);
+}*/
+
+#mainPage .name2{
+    position: absolute;
     font-size: 70px;
     left: 175px;
-    top:-125px;
+    top:520px;
     color: #A27B5C;
 
 }
@@ -90,7 +111,7 @@ header {
     position: relative;
     font-size: 40px;
     left: 100px;
-    top: -10px ;
+    top: 50px ;
     color: #DCD7C9;
 }
 .profileImg {
@@ -109,6 +130,14 @@ header {
     left: 679px;
     top: 251px;
     margin: auto;
+
+    transition: all 0.5s ease;
+}
+
+.gitHubImg:hover{
+    transform: scale(2.0);
+    cursor: pointer;
+    background-color: #b2d984;
 }
 
 .whiteCircleGitHub{
@@ -120,7 +149,13 @@ header {
     top: 250px;
     margin: auto;
     background: white;
+    transition: all 0.5s ease;
+
 }
+.whiteCircleGitHub:hover{
+    background-color: #d23f3f;
+}
+
 .facebookImg{
     position: absolute;
     border-radius: 100%;
@@ -264,6 +299,17 @@ header {
     margin: auto;
     background: brown;
 }*/
+.mainSection .shadow{
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+
+#About{
+  /*  border: 2px solid red;*/
+    box-shadow: 0 0 10px rgba(48, 46,0.15);
+}
+
+
+
 #DetailArticle{
     position: relative;
     font-size: 25px;
@@ -277,39 +323,115 @@ header {
     left: 450px;
     top:25vh;
     color: white;
+    border: 2px solid red
 }
 #Skills{
     width: 100vw;
     height: 100vh;
 }
 
+
+.skill-bars {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.skill-bars li {
+    margin-bottom: 6.3%;
+    padding: 0;
+    position: relative;
+}
+
+.skill-bars li strong {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.skill-bars li .progress {
+
+    height: 20px;
+    width: 50%;
+    border-radius: 100vw;
+    background: #DCD7C9;
+    top: 40px;
+    position: relative;
+    left: 400px;
+}
+
+.skill-bars li .progress span {
+    display: block;
+    height: 100%;
+    border-radius: 100vw;
+    font-size: 0.6vw;
+    left: -1%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.skill-bars li .progress.percent80 span {
+    width: 80%;
+    background: #A27B5C;
+}
+
+.skill-bars li .progress.percent90 span {
+    width: 90%;
+    background: #A27B5C;
+}
+
+.skill-bars li .progress.percent85 span {
+    width: 85%;
+    background: #A27B5C;
+}
+
+.skill-bars li .progress.percent83 span {
+    width: 83%;
+    background: #A27B5C;
+}
+
+.skill-bars li .progress.percent75 span {
+    width: 75%;
+    background: #A27B5C;
+}
+#Skills .p1{
+
+    position: relative;
+    font-size: 20px;
+    color: white;
+    left: 400px;
+    top: 10px;
+}
+
 .javaPng{
     position: absolute;
-    height: 200px;
+    height: 100px;
    /* width: 150px;*/
-    left: 30px;
-    top:10px;
+    left: 200px;
+    top:74px;
     margin: auto;
 }
 .mySqlPng{
     position: absolute;
-    height: 200px;
-    left: 250px;
-    top:10px;
+    height:100px;
+    left: 213px;
+    top:187px;
     margin: auto;
 }
 .cssPng{
     position: absolute;
-    height: 200px;
-    left: 480px;
-    top:10px;
+    height: 83px;
+    left: 219px;
+    top:320px;
     margin: auto;
 }
 .htmlPng{
     position: absolute;
-    height: 200px;
-    left: 710px;
-    top:10px;
+    height: 83px;
+    left: 219px;
+    top:425px;
     margin: auto;
 }
 
