@@ -141,7 +141,6 @@ header {
     left: 679px;
     top: 251px;
     margin: auto;
-
     transition: all 0.5s ease;
 }
 
@@ -666,6 +665,294 @@ header {
     top: 40px ;
     color: #97f50e;
 }
+.cssTitle{
+    position: relative;
+    font-size: 30px;
+    left: 100px;
+    top: 80px ;
+    color: #c55a5a;
+}
+
+.assignmentCaseOneImg{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    left: 100px;
+    top: 160px;
+    transition: all 0.5s ease;
+}
+.assignmentCaseOneImg:hover{
+    transform: scale(2.5);
+    cursor: pointer;
+}
+
+.assignmentCaseOneTitle{
+    position: relative;
+    font-size: 20px;
+    left: 138px;
+    top: 220px ;
+    color: white;
+    transition: all 0.5s ease;
+}
+/*.assignmentCaseOneImg .assignmentCaseOneTitle:hover{
+    transform: scale(2.5);
+    cursor: pointer;
+}*/
+
+.assignmentCaseTwoImg{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    left: 300px;
+    top: 160px;
+    transition: all 0.5s ease;
+}
+.assignmentCaseTwoImg:hover{
+    transform: scale(2.5);
+    cursor: pointer;
+}
+.assignmentCaseTwoTitle{
+    position: relative;
+    font-size: 20px;
+    left: 338px;
+    top: 199px ;
+    color: white;
+    transition: all 0.5s ease;
+}
+.assignmentCaseThreeImg{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    left: 500px;
+    top: 160px;
+    transition: all 0.5s ease;
+}
+.assignmentCaseThreeImg:hover{
+    transform: scale(2.5);
+    cursor: pointer;
+}
+.assignmentCaseThreeTitle{
+    position: relative;
+    font-size: 20px;
+    left: 538px;
+    top: 176px ;
+    color: white;
+    transition: all 0.5s ease;
+}
+.assignmentCaseFourImg{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    left: 700px;
+    top: 160px;
+    transition: all 0.5s ease;
+}
+.assignmentCaseFourImg:hover{
+    transform: scale(2.5);
+    cursor: pointer;
+}
+.assignmentCaseFourTitle{
+    position: relative;
+    font-size: 20px;
+    left: 738px;
+    top: 154px ;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.assignmentCaseFiveImg{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    left: 900px;
+    top: 160px;
+    transition: all 0.5s ease;
+}
+.assignmentCaseFiveImg:hover{
+    transform: scale(2.5);
+    cursor: pointer;
+}
+.assignmentCaseFiveTitle{
+    position: relative;
+    font-size: 20px;
+    left: 938px;
+    top: 130px ;
+    color: white;
+    transition: all 0.5s ease;
+}
+.assignmentCaseSixImg{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    left: 1100px;
+    top: 160px;
+    transition: all 0.5s ease;
+}
+.assignmentCaseSixImg:hover{
+    transform: scale(2.5);
+    cursor: pointer;
+}
+.assignmentCaseSixTitle{
+    position: relative;
+    font-size: 20px;
+    left: 1138px;
+    top: 108px ;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.transitionTitle{
+    position: relative;
+    font-size: 30px;
+    left: 100px;
+    top:150px ;
+    color: #c55a5a;
+}
+.transitionCaseOneImg{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    left: 100px;
+    top: 430px;
+    transition: all 0.5s ease;
+}
+.transitionCaseOneImg:hover{
+    transform: scale(2.5);
+    cursor: pointer;
+}
+
+.transitionCaseOneTitle{
+    position: relative;
+    font-size: 20px;
+    left: 138px;
+    top: 300px ;
+    color: white;
+    transition: all 0.5s ease;
+}
+/*.assignmentCaseOneImg .assignmentCaseOneTitle:hover{
+    transform: scale(2.5);
+    cursor: pointer;
+}*/
+
+.transitionCaseTwoImg{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    left: 300px;
+    top: 430px;
+    transition: all 0.5s ease;
+}
+.transitionCaseTwoImg:hover{
+    transform: scale(2.5);
+    cursor: pointer;
+}
+.transitionCaseTwoTitle{
+    position: relative;
+    font-size: 20px;
+    left: 338px;
+    top: 280px ;
+    color: white;
+    transition: all 0.5s ease;
+}
+.transitionCaseThreeImg{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    left: 500px;
+    top: 430px;
+    transition: all 0.5s ease;
+}
+.transitionCaseThreeImg:hover{
+    transform: scale(2.5);
+    cursor: pointer;
+}
+.transitionCaseThreeTitle{
+    position: relative;
+    font-size: 20px;
+    left: 538px;
+    top: 260px ;
+    color: white;
+    transition: all 0.5s ease;
+}
+.transitionCaseFourImg{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    left: 700px;
+    top: 430px;
+    transition: all 0.5s ease;
+}
+.transitionCaseFourImg:hover{
+    transform: scale(2.5);
+    cursor: pointer;
+}
+.transitionCaseFourTitle{
+    position: relative;
+    font-size: 20px;
+    left: 738px;
+    top: 240px ;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.transitionCaseFiveImg{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    left: 900px;
+    top: 430px;
+    transition: all 0.5s ease;
+}
+.transitionCaseFiveImg:hover{
+    transform: scale(2.5);
+    cursor: pointer;
+}
+.transitionCaseFiveTitle{
+    position: relative;
+    font-size: 20px;
+    left: 938px;
+    top: 220px ;
+    color: white;
+    transition: all 0.5s ease;
+}
+.transitionCaseSixImg{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    left: 1100px;
+    top: 430px;
+    transition: all 0.5s ease;
+}
+.transitionCaseSixImg:hover{
+    transform: scale(2.5);
+    cursor: pointer;
+}
+.transitionCaseSixTitle{
+    position: relative;
+    font-size: 20px;
+    left: 1138px;
+    top: 200px ;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+/*
+.gitHubImg{
+    position: absolute;
+    border-radius: 100%;
+    height: 86px;
+    width: 86px;
+    left: 679px;
+    top: 251px;
+    margin: auto;
+    transition: all 0.5s ease;
+}
+
+.gitHubImg:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: #b2d984;
+}*/
 #Gallary .headline{
     position: relative;
     font-size: 25px;
