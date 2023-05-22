@@ -135,10 +135,12 @@ header {
 }
 
 .gitHubImg:hover{
-    transform: scale(2.0);
+    transform: scale(1.2);
     cursor: pointer;
     background-color: #b2d984;
 }
+
+
 
 .whiteCircleGitHub{
     position: absolute;
@@ -451,7 +453,40 @@ header {
     left: 200px;
     top:0;
     margin: auto;
+   /* animation: animatesd 5s linear infinite;*/
+    animation: animatese 25s  linear infinite;
+
 }
+
+@keyframes animatese {
+    100%{
+        opacity: 0;
+        transform: rotateY(360deg);
+
+    }
+    50%{
+        opacity: 1;
+        transform: rotateY(-180deg);
+    }
+}
+
+
+/*
+@keyframes animatesd {
+
+    100% {
+        transform: rotate(360deg);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    25% {
+        transform: translateX(-10px);
+    }
+
+}
+*/
+
 #Project .p2 {
 
     position: relative;
@@ -467,6 +502,7 @@ header {
     left: 800px;
     top:0;
     margin: auto;
+    animation: animatesd 5s linear infinite;
 }
 
 #Activities .p{
