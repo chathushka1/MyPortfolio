@@ -75,8 +75,12 @@ header {
     color: #A27B5C;
     left: 130px;
     top: 450px;
+    transition: all 0.5s ease;
 }
-
+#mainPage .name1:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
 
 .social-media{
     position: relative;
@@ -103,15 +107,22 @@ header {
     position: absolute;
     font-size: 70px;
     left: 175px;
-    top:520px;
+    top:530px;
     color: #A27B5C;
-
+    ransition: all 0.8s ease;
 }
+
+
+#mainPage .name2:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
 #About .nameAbout{
     position: relative;
     font-size: 40px;
     left: 100px;
-    top: 50px ;
+    top: 20px ;
     color: #DCD7C9;
 }
 .profileImg {
@@ -166,6 +177,12 @@ header {
     left: 910px;
     top: 253px;
     margin: auto;
+    transition: all 0.5s ease;
+}
+.facebookImg:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: #b2d984;
 }
 .whiteCircleFB{
     position: absolute;
@@ -176,6 +193,10 @@ header {
     top: 251px;
     margin: auto;
     background: white;
+    transition: all 0.5s ease;
+}
+.whiteCircleFB:hover{
+    background-color: #d23f3f;
 }
 .twitterImage{
     position: absolute;
@@ -185,6 +206,12 @@ header {
     left: 1144px;
     top: 252px;
     margin: auto;
+    transition: all 0.5s ease;
+}
+.twitterImage:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: #b2d984;
 }
 .whiteCircleTwitter {
     position: absolute;
@@ -195,8 +222,11 @@ header {
     top: 250px;
     margin: auto;
     background: white;
+    transition: all 0.5s ease;
 }
-
+.whiteCircleTwitter:hover{
+    background-color: #3f95d2;
+}
 .linkedInImg{
     position: absolute;
     border-radius: 100%;
@@ -205,8 +235,13 @@ header {
     left: 679px;
     top: 422px;
     margin: auto;
+    transition: all 0.5s ease;
 }
-
+.linkedInImg:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: #b2d984;
+}
 .whiteCircleLinkedIn{
     position: absolute;
     border-radius: 100%;
@@ -216,6 +251,10 @@ header {
     top: 420px;
     margin: auto;
     background: white;
+    transition: all 0.5s ease;
+}
+.whiteCircleLinkedIn:hover{
+    background-color: #3f95d2;
 }
 .instergramImg{
     position: absolute;
@@ -225,6 +264,12 @@ header {
     left: 911px;
     top: 422px;
     margin: auto;
+    transition: all 0.5s ease;
+}
+.instergramImg:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: #b2d984;
 }
 .whiteCircleInstergram{
     position: absolute;
@@ -235,6 +280,10 @@ header {
     top: 420px;
     margin: auto;
     background: white;
+    transition: all 0.5s ease;
+}
+.whiteCircleInstergram:hover{
+    background-color: #3f95d2;
 }
 .whatsappImage{
     position: absolute;
@@ -244,6 +293,12 @@ header {
     left: 1144px;
     top: 420px;
     margin: auto;
+    transition: all 0.5s ease;
+}
+.whatsappImage:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: #b2d984;
 }
 .whiteCircleWhatsApp{
     position: absolute;
@@ -254,6 +309,10 @@ header {
     top: 418px;
     margin: auto;
     background: white;
+    transition: all 0.5s ease;
+}
+.whiteCircleWhatsApp:hover{
+    background-color: #3f95d2;
 }
 
 .square1{
@@ -261,36 +320,45 @@ header {
     width: 1311px;
     height: 10px;
     left: 20px;
-    top: 950px;
+    top: 20px;
     margin: auto;
-    background: brown;
+    background: #A27B5C;
 }
 .square2{
     position: absolute;
     width: 10px;
-    height: 600px;
+    height: 580px;
     left: 1321px;
-    top: 950px;
+    top: 20px;
     margin: auto;
-    background: brown;
+    background: #A27B5C;
 }
 .square3{
     position: absolute;
     width: 10px;
-    height: 600px;
+    height: 580px;
     left: 20px;
-    top: 950px;
+    top: 20px;
     margin: auto;
-    background: brown;
+    background: #A27B5C;
 }
 .square4{
     position: absolute;
     width: 1311px;
     height: 10px;
     left: 20px;
-    top: 1525px;
+    top: 590px;
     margin: auto;
-    background: brown;
+    background: #A27B5C;
+}
+.bigSquare{
+    position: absolute;
+    width: 1150px;
+    height: 362px;
+    left: 100px;
+    top: 170px;
+    margin: auto;
+    background: #A27B5C;
 }
 /*.blackSquare{
     position: absolute;
@@ -301,37 +369,49 @@ header {
     margin: auto;
     background: brown;
 }*/
-.mainSection .shadow{
+/*.mainSection .shadow{
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
 
 #About{
-  /*  border: 2px solid red;*/
+  !*  border: 2px solid red;*!
     box-shadow: 0 0 10px rgba(48, 46,0.15);
+}*/
+
+
+#About .headline{
+    position: relative;
+    font-size: 25px;
+    left: 50px;
+    top: 40px ;
+    color: #97f50e;
 }
-
-
-
 #DetailArticle{
     position: relative;
     font-size: 25px;
-    left: 75px;
-    top:120px;
-    color: white;
+    left: 124px;
+    top:56px;
+    color: #DCD7C9;
 }
 #DetailArticle2{
     position: absolute;
     font-size: 25px;
-    left: 450px;
-    top:25vh;
-    color: white;
+    left: 561px;
+    top:38vh;
+    color: #DCD7C9;
     border: 2px solid red
 }
 #Skills{
     width: 100vw;
     height: 100vh;
 }
-
+#Skills .headline{
+    position: relative;
+    font-size: 25px;
+    left: 50px;
+    top: 40px ;
+    color: #97f50e;
+}
 
 .skill-bars {
     list-style: none;
@@ -354,13 +434,13 @@ header {
 
 .skill-bars li .progress {
 
-    height: 20px;
+    height: 15px;
     width: 50%;
     border-radius: 100vw;
     background: #DCD7C9;
-    top: 40px;
+    top: 60px;
     position: relative;
-    left: 400px;
+    left: 450px;
 }
 
 .skill-bars li .progress span {
@@ -394,64 +474,98 @@ header {
     background: #A27B5C;
 }
 
-.skill-bars li .progress.percent75 span {
+/*.skill-bars li .progress.percent75 span {
     width: 75%;
     background: #A27B5C;
-}
+}*/
 #Skills .p1{
 
     position: relative;
     font-size: 20px;
     color: white;
     left: 400px;
-    top: 10px;
+    top: 20px;
 }
+#Skills .java{
+    position: relative;
+    font-size: 20px;
+    color: white;
+    left: 450px;
+    top:15px;
+}
+
+
 
 .javaPng{
     position: absolute;
     height: 100px;
    /* width: 150px;*/
-    left: 200px;
-    top:74px;
+    left: 250px;
+    top:90px;
     margin: auto;
+    transition: all 0.5s ease;
+}
+.javaPng:hover{
+    transform: scale(1.2);
+    cursor: pointer;
 }
 .mySqlPng{
     position: absolute;
     height:100px;
-    left: 213px;
-    top:187px;
+    left: 263px;
+    top:230px;
     margin: auto;
+    transition: all 0.5s ease;
+}
+.mySqlPng:hover{
+    transform: scale(1.2);
+    cursor: pointer;
 }
 .cssPng{
     position: absolute;
     height: 83px;
-    left: 219px;
-    top:320px;
+    left: 269px;
+    top:360px;
     margin: auto;
+    transition: all 0.5s ease;
+}
+.cssPng:hover{
+    transform: scale(1.2);
+    cursor: pointer;
 }
 .htmlPng{
     position: absolute;
     height: 83px;
-    left: 219px;
-    top:425px;
+    left: 269px;
+    top:480px;
     margin: auto;
+    transition: all 0.5s ease;
+}
+.htmlPng:hover{
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
-
+#Project .headline{
+    position: relative;
+    font-size: 25px;
+    left: 50px;
+    top: 40px ;
+    color: #97f50e;
+}
 #Project .p1 {
-
     position: relative;
     font-size: 20px;
     color: white;
-    left: 180px;
-    top: 310px;
+    left: 130px;
+    top: 300px;
 }
 .gaganaInvestmentImg{
     position: absolute;
-    height: 250px;
-    width: 350px;
-    left: 200px;
-    top:0;
+    height: 200px;
+    width: 250px;
+    left: 150px;
+    top:131px;
     margin: auto;
    /* animation: animatesd 5s linear infinite;*/
     animation: animatese 25s  linear infinite;
@@ -492,19 +606,35 @@ header {
     position: relative;
     font-size: 20px;
     color: white;
-    left: 780px;
-    top: 270px;
+    left: 560px;
+    top: 300px;
 }
 .hostelManagementImg{
     position: absolute;
-    height: 250px;
-    width: 350px;
-    left: 800px;
-    top:0;
+    height: 200px;
+    width: 250px;
+    left: 550px;
+    top:172px;
     margin: auto;
-    animation: animatesd 5s linear infinite;
+    animation: animatese 25s  linear infinite;
 }
+#Project .p3 {
 
+    position: relative;
+    font-size: 20px;
+    color: white;
+    left: 1015px;
+    top:300px;
+}
+.projectPortfolioImg{
+    position: absolute;
+    height: 200px;
+    width: 250px;
+    left: 935px;
+    top:217px;
+    margin: auto;
+    animation: animatese 25s  linear infinite;
+}
 #Activities .p{
 
     position: relative;
@@ -516,11 +646,25 @@ header {
 .toolImg{
     position: absolute;
     border-radius: 100%;
-    height: 500px;
-    width: 500px;
-    left: 100px;
+    height: 530px;
+    width: 560px;
+    left: 400px;
     top:50px;
     margin: auto;
+}
+.Toolheadline{
+    position: relative;
+    font-size: 25px;
+    left: 50px;
+    top: 40px ;
+    color: #97f50e;
+}
+#Assignment .headline{
+    position: relative;
+    font-size: 25px;
+    left: 50px;
+    top: 40px ;
+    color: #97f50e;
 }
 #Contact .call{
     flex: 0 0 25%;
