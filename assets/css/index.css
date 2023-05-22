@@ -358,7 +358,7 @@ header {
     left: 100px;
     top: 170px;
     margin: auto;
-    background: #A27B5C;
+    background: #3F4E4F;
 }
 /*.blackSquare{
     position: absolute;
@@ -725,42 +725,58 @@ header {
     }
 }
 
+#Contact .headline{
+    position: relative;
+    font-size: 25px;
+    left: 50px;
+    top: 40px ;
+    color: #97f50e;
+}
 #Contact .call{
-    flex: 0 0 25%;
-    max-width: 25%;
-    text-align: center;
-    margin-bottom: 60px;
+    position: absolute;
     font-size: 25px;
     color: #3FD289;
+    top: 280px;
+    left: 260px;
+}
+#Contact .call .img{
+    position: absolute;
+    height: 50px;
+    top:-80px;
+    left: -5px;
+    transition: all 0.5s ease;
+}
+#Contact .call .img:hover{
+    transform: scale(1.5);
+    cursor: pointer;
 }
 #Contact .number{
     position: absolute;
-    flex: 0 0 25%;
-    max-width: 25%;
-    text-align: center;
-    margin-bottom: 60px;
     font-size: 25px;
     color: #3FD289;
     top: 50px;
-    left: 105px;
+    left: -40px;
 }
 #Contact .whatsapp{
     position: absolute;
-    flex: 0 0 25%;
-    max-width: 25%;
-    text-align: center;
-    margin-bottom: 60px;
     font-size: 25px;
     color: #3FD289;
-    left: 450px;
-    top: 0;
+    left: 480px;
+    top: 280px;
+}
+#Contact .whatsapp .img{
+    position: absolute;
+    height: 50px;
+    top:-80px;
+    left: 28px;
+    transition: all 0.5s ease;
+}
+#Contact .whatsapp .img:hover{
+    transform: scale(1.5);
+    cursor: pointer;
 }
 #Contact .whatsappNumber{
     position: absolute;
-    flex: 0 0 25%;
-    max-width: 25%;
-    text-align: center;
-    margin-bottom: 60px;
     font-size: 25px;
     color: #3FD289;
     top: 50px;
@@ -768,33 +784,63 @@ header {
 }
 #Contact .email{
     position: absolute;
-    margin-bottom: 60px;
     font-size: 25px;
     color: #3FD289;
-    left: 720px;
-    top: 0;
+    left: 750px;
+    top: 280px;
+}
+#Contact .email .img{
+    position: absolute;
+    height: 50px;
+    top:-80px;
+    left: 5px;
+    transition: all 0.5s ease;
+}
+
+#Contact .email .img:hover{
+    transform: scale(1.5);
+    cursor: pointer;
 }
 #Contact .emailAddress{
     position: absolute;
-    margin-bottom: 60px;
     font-size: 25px;
     color: #3FD289;
     top: 50px;
     left: -75px;
 }
+
 #Contact .location{
     position: absolute;
-    margin-bottom: 60px;
     font-size: 25px;
     color: #3FD289;
-    left: 1000px;
-    top: 0;
+    left: 1010px;
+    top: 280px;
+}
+#Contact .location .img{
+    position: absolute;
+    height: 50px;
+    top:-80px;
+    left: 17px;
+    transition: all 0.5s ease;
+}
+#Contact .location .img:hover{
+    transform: scale(1.5);
+    cursor: pointer;
 }
 #Contact .locationGalle{
     position: absolute;
-    margin-bottom: 60px;
     font-size: 25px;
     color: #3FD289;
     top: 50px;
-    left: 10px;
+    left: 15px;
+}
+
+#Contact .bigSquare{
+    position: absolute;
+    width: 1150px;
+    height: 362px;
+    left: 120px;
+    top: 115px;
+    margin: auto;
+    background: #3F4E4F;
 }
