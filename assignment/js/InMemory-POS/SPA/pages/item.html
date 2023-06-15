@@ -206,12 +206,12 @@
     }
 
     function updateItem(itemCode) {
-        let item = searchItems(itemCode);
-        if (item != null) {
-            item.itmCode = $("#itemCode").val();
-            item.itmName = $("#itemName").val();
-            item.itmQty = $("#itemQty").val();
-            item.itmPrice = $("#itemPrice").val();
+        let updateItem = searchItem(itemCode);
+        if (updateItem != null) {
+            updateItem.itmCode = $("#itemCode").val();
+            updateItem.itmName = $("#itemName").val();
+            updateItem.itmQty = $("#itemQty").val();
+            updateItem.itmPrice = $("#itemPrice").val();
             loadAllItems();
             return true;
         } else {

@@ -169,6 +169,22 @@
     var customers=[];
 
     $("#btnCustomer").click(function (){
+       // let customerID = /^(C00)[0-9]{3}$/;
+
+
+        /*let customerID  = element.filter(function() {
+            return /^(C00)[0-9]{3}$/.test($("#txtCustomerID")(this).text());
+        });
+*/
+
+       /* let customerID  = /^(C00-)[0-9]{3}$/;
+
+            if (!customerID.test(cusId.value)) {
+                cusId.classList.add("red");
+            } else {
+                cusId.classList.remove("red");
+            }
+*/
         let cusId=$("#txtCustomerID").val();
         let cusName=$("#txtCustomerName").val();
         let cusAddress=$("#txtCustomerAddress").val();
@@ -185,7 +201,7 @@
         customers.push(customerObject);
 
         loadAllCustomers();
-
+        clearCustomerFields();
         LoadAllCustomerClickEvents();
     });
 
@@ -224,6 +240,8 @@
     }
 
 
+
+
     $("#btnCusDelete").click(function (){
 
         let deleteId=$("#txtCustomerID").val();
@@ -239,6 +257,9 @@
         }
     });
 
+    $("#btn-clear1").click(function (){
+        clearCustomerFields();
+    });
     $("#btnUpdate").click(function () {
         let customerID = $("#txtCustomerID").val();
         let response = updateCustomer(customerID);
@@ -312,8 +333,67 @@
 
     }
 
+    /*function clearCustomerFields(){
+        $("#txtCustomerID,#txtCustomerName,#txtCustomerAddress,#txtCustomerSalary");
+        $("#txtCustomerID").focus();
 
+    }*/
+    $("#txtCustomerID").keydown(function (event){
+        let customerIdPattern = /^(C00-)[0-9]{3}$/;
 
+        let cId = $("#txtCustomerID").val();
+
+        if(event.key=="Enter"){
+            if(customerIdPattern.test(cId)){
+                $("#txtCustomerID").css('border-color','green').blur();
+                $("#txtCustomerName").focus();
+            }else{
+                $("#txtCustomerID").css('border-color','red').blur();
+            }
+
+        }
+    });
+
+    $("#txtCustomerName").keydown(function (e){
+        let customerNamePattern = /^[a-zA-Z]+$/;
+         let cName = $("#txtCustomerName").val();
+
+        if(e.key=="Enter"){
+            if(customerNamePattern.test(cName)){
+                $("#txtCustomerName").css('border-color','green').blur();
+                $("#txtCustomerAddress").focus();
+            }else{
+                $("#txtCustomerName").css('border-color','red').blur();
+            }
+
+        }
+    });
+    $("#txtCustomerAddress").keydown(function (event){
+        let customerAddressPattern = /^[a-zA-Z]+$/;
+        let cAddress = $("#txtCustomerAddress").val();
+        if(event.key=="Enter"){
+            if(customerAddressPattern.test(cAddress)){
+                $("#txtCustomerAddress").css('border-color','green').blur();
+                $("#txtCustomerSalary").focus();
+            }else{
+                $("#txtCustomerAddress").css('border-color','red').blur();
+            }
+        }
+    });
+
+    $("#txtCustomerSalary").keydown(function (e){
+        let customerSalaryPattern = /^[0-9]+$/;
+        let cSalary = $("#txtCustomerSalary").val();
+        if(e.key=="Enter"){
+            if(customerSalaryPattern.test(cSalary)){
+                $("#txtCustomerSalary").css('border-color','green').blur();
+                $("#btnCustomer").focus();
+            }else{
+                $("#txtCustomerSalary").css('border-color','red').blur();
+            }
+
+        }
+    });
     //done
 
 </script>
