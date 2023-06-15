@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Shop System</title>
+    <title>POS System</title>
     <link rel="stylesheet" href="assets/css/bootstrap.css">
 
 
@@ -27,7 +27,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                        <a class="navbar-brand text-white" href="#">Shop System</a>
+                        <a class="navbar-brand text-white" href="#">POS System</a>
                         <ul class="navbar-nav me-auto ms-2 mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link active text-white" aria-current="page" href=#" id="customers">Customer</a>
@@ -36,7 +36,7 @@
                                 <a class="nav-link text-white" href="#" id="items">Item</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="#" id="orders">Order Details</a>
+                                <a class="nav-link text-white" href="#" id="orders">Orders</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-white" href="#" id="placeOrders">Place Orders</a>
@@ -61,7 +61,7 @@
 
                 <div class="row">
                     <div class="col">
-                        <h2 class="text-danger text-center m-lg-100 pt-5  text-primary" >Customer Details</h2>
+                        <h2 class="text-danger text-center m-lg-100 pt-3  text-primary" >Customer Details</h2>
                         <form class="row p-4 m-0 m-lg-2  justify-content-center">
                             <div class="mb-3">
                                 <label for="txtCustomerID" class="form-label " id="cids">Customer Id</label>
@@ -81,10 +81,10 @@
                             </div>
 
 
-                            <button id="save" type="button" style="width: 150px" class="btn btn-success m-auto m-lg-2 justify-content-center" >Save</button>
-                            <button id="btnUpdate" type="button" style="width: 150px" class="btn btn-info m-auto m-lg-2">Update</button>
-                            <button id="btnDelete" type="button" style="width: 150px" class="btn btn-danger m-auto m-lg-2">Delete</button>
-                            <button id="btnClear" type="button" style="width: 150px" class="btn btn-warning m-auto m-lg-2">Clear</button>
+                            <button id="btnItmSave" type="button" style="width: 150px" class="btn btn-success m-auto m-lg-2 justify-content-center" >Save</button>
+                            <button id="btnItmUpdate" type="button" style="width: 150px" class="btn btn-info m-auto m-lg-2">Update</button>
+                            <button id="btnItmDelete" type="button" style="width: 150px" class="btn btn-danger m-auto m-lg-2">Delete</button>
+                            <button id="btnItmClear" type="button" style="width: 150px" class="btn btn-warning m-auto m-lg-2">Clear</button>
                         </form>
                     </div>
                 </div>
@@ -98,7 +98,7 @@
 <!--                <h2 class="text-primary text-center m-lg-100 pt-5 " >Customer Details</h2>-->
                 <section class="container col border-warning m-4 border rounded object-fit-contain  me-auto ms-20 mb-10">
 
-                    <h5 class="text-danger text-center m-lg-3 pb-3" >Customer Details</h5>
+                    <h2 class="text-danger text-center m-lg-3 pb-3" >Customer Details</h2>
                     <table class="table table-light table-striped" id="tables">
                         <thead>
                         <tr>
@@ -154,33 +154,34 @@
 <div class="container text-center"  id="itemContent">
     <div class="row align-items-start">
         <div class="col">
-            <h2 class="text-primary text-center m-lg-100 pt-5 " >Item Details</h2>
-            <section class="container col border-dark m-4 border rounded object-fit-contain  me-auto ms-20 mb-10">
+            <section class="container col border-warning m-4 border rounded object-fit-contain  me-auto ms-20 mb-10">
 
                 <div class="row">
                     <div class="col">
-                        <h2 class="text-danger text-center m-lg-100 pt-5  text-primary" >Item Details</h2>
+                        <h2 class="text-danger text-center m-lg-100 pt-3  text-primary" >Item Details</h2>
                         <form class="row p-4 m-0 m-lg-2  justify-content-center">
                             <div class="mb-3">
-                                <label for="exampleInputEmail2" class="form-label " id="cids1">ID</label>
+                                <label for="exampleInputEmail2" class="form-label " id="code">Item Code</label>
                                 <input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp">
                             </div>
                             <div class="mb-3">
-                                <label for="description" class="form-label">Description</label>
-                                <input type="password" class="form-control" id="description">
-                            </div>
-                            <div class="mb-3">
-                                <label for="unitprice" class="form-label">Unitprice</label>
-                                <input type="password" class="form-control" id="unitprice">
+                                <label for="name" class="form-label">Item Name</label>
+                                <input type="password" class="form-control" id="name">
                             </div>
                             <div class="mb-3">
                                 <label for="qty" class="form-label">Qty</label>
                                 <input type="password" class="form-control" id="qty">
                             </div>
+                            <div class="mb-3">
+                                <label for="price" class="form-label">Unit Price</label>
+                                <input type="password" class="form-control" id="price">
+                            </div>
 
 
-                            <button type="submit" style="width: 150px" class="btn btn-warning m-auto m-lg-2 justify-content-center" >Save</button>
-                            <button type="submit" style="width: 150px" class="btn btn-info m-auto m-lg-2">Update</button>
+                            <button id="save" type="button" style="width: 150px" class="btn btn-success m-auto m-lg-2 justify-content-center" >Save</button>
+                            <button id="btnUpdate" type="button" style="width: 150px" class="btn btn-info m-auto m-lg-2">Update</button>
+                            <button id="btnDelete" type="button" style="width: 150px" class="btn btn-danger m-auto m-lg-2">Delete</button>
+                            <button id="btnClear" type="button" style="width: 150px" class="btn btn-warning m-auto m-lg-2">Clear</button>
                         </form>
                     </div>
                 </div>
@@ -191,30 +192,37 @@
         <div class="col">
 
             <div class="col">
-                <h2 class="text-primary text-center m-lg-100 pt-5 " >Item Details</h2>
-                <section class="container col border-dark m-4 border rounded object-fit-contain  me-auto ms-20 mb-10">
+                <section class="container col border-warning m-4 border rounded object-fit-contain  me-auto ms-20 mb-10">
 
-                    <h5 class="text-danger text-center m-lg-3 pb-3" >Item Details</h5>
+                    <h2 class="text-danger text-center m-lg-3 pb-3" >Item Details</h2>
                     <table class="table table-light table-striped">
                         <thead>
                         <tr>
-                            <th style="background-color: #0077b6" scope="col">Id</th>
-                            <th style="background-color: #0077b6" scope="col">Description</th>
-                            <th style="background-color: #0077b6" scope="col">Unitprice</th>
-                            <th style="background-color: #0077b6" scope="col">Qty</th>
+                            <th style="background-color: #fd7e14" scope="col">Code</th>
+                            <th style="background-color: #fd7e14" scope="col">Name</th>
+                            <th style="background-color: #fd7e14" scope="col">Qty</th>
+                            <th style="background-color: #fd7e14" scope="col">Price</th>
                             <!--<th style="background-color: #0077b6" scope="col">Action</th>-->
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
                             <th scope="row">I001</th>
-                            <td>Ram</td>
-                            <td>8000</td>
-                            <td>10</td>
-                       <!--     <td>
-                                <button type="button" class="btn btn-primary">Edit</button>
-                                <button type="button" class="btn btn-danger">Delete</button>
-                            </td>-->
+                            <td>Soap</td>
+                            <td>500</td>
+                            <td>150</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">I002</th>
+                            <td>Ice Cream</td>
+                            <td>450</td>
+                            <td>180</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">I003</th>
+                            <td>Biscuit</td>
+                            <td>2500</td>
+                            <td>200</td>
                         </tr>
 
 
