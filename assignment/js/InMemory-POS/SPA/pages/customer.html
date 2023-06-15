@@ -186,11 +186,11 @@
 
         loadAllCustomers();
 
-        bindRowClickEvents();
+        LoadAllCustomerClickEvents();
     });
 
 
-    function bindRowClickEvents() {
+    function LoadAllCustomerClickEvents() {
         $("#tblCustomer>tr").click(function () {
             let id = $(this).children(":eq(0)").text();
             let name = $(this).children(":eq(1)").text();
@@ -201,6 +201,7 @@
             $('#txtCustomerName').val(name);
             $('#txtCustomerAddress').val(address);
             $('#txtCustomerSalary').val(salary);
+           // console.log(id,name,address,salary);
 
         });
     }
@@ -211,14 +212,19 @@
         $("#tblCustomer").empty();
 
         for (var customer of customers) {
-            var row = `<tr><td>${customer.id}</td><td>${customer.name}</td><td>${customer.address}</td><td>${customer.salary}</td></tr>`;
+            var row = `<tr>
+                <td>${customer.id}</td>
+                <td>${customer.name}</td>
+                <td>${customer.address}</td>
+                <td>${customer.salary}</td>
+                </tr>`;
 
             $("#tblCustomer").append(row);
         }
     }
 
 
-    $("#deleteCustomer").click(function (){
+    $("#btnCusDelete").click(function (){
 
         let deleteId=$("#txtCustomerID").val();
 
@@ -233,7 +239,7 @@
         }
     });
 
-    $("#updateCustomer").click(function () {
+    $("#btnUpdate").click(function () {
         let customerID = $("#txtCustomerID").val();
         let response = updateCustomer(customerID);
         if (response) {
@@ -251,7 +257,7 @@
             let typedId = $("#txtCustomerID").val();
             let customer = searchCustomer(typedId);
             if (customer != null) {
-                setTextfieldValues(customer.id, customer.name, customer.address, customer.contact);
+                setTextfieldValues(customer.id, customer.name, customer.address, customer.salary);
             } else {
                 alert("There is no cusotmer available for that " + typedId);
                 setTextfieldValues("", "", "", "");
@@ -272,6 +278,8 @@
     }
 
     function setTextfieldValues(id, name, address, salary) {
+        LoadAllCustomerClickEvents();
+
         $("#txtCustomerID").val(id);
         $("#txtCustomerName").val(name);
         $("#txtCustomerAddress").val(address);
@@ -294,14 +302,20 @@
             customer.id = $("#txtCustomerID").val();
             customer.name = $("#txtCustomerName").val();
             customer.address = $("#txtCustomerAddress").val();
-            customer.contact = $("#txtCustomerContact").val();
+            customer.salary = $("#txtCustomerSalary").val();
             loadAllCustomers();
             return true;
+
         } else {
             return false;
         }
-
+        loadAllCustomers();
     }
+
+
+
+    //done
+
 </script>
 </body>
 </html>

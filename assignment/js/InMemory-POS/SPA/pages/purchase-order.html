@@ -227,5 +227,23 @@
     </div>
 </main>
 
+<script src="../assets/js/jquery-3.6.1.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
+<script>
+    function loadAllCustomerId(){
+        $("#orderCustomerID").empty();
+        for (let customerArElement of customers){
+            $("#orderCustomerID").append(`<option>${customerArElement.id}</option>`);
+        }
+    }
+
+    $("#orderCustomerID").on('change',function (){
+
+        let customer=searchCustomer($('#customerOrdID').val());
+
+        $("#customerNameOrd").val(customer.name);
+    });
+
+</script>
 </body>
 </html>
