@@ -1866,7 +1866,7 @@ header {
 /*
 ----------Tablet Size-----------*/
 
-@media (max-width: 769px){
+@media (max-width: 768px){
 
     .profileImg {
         position: absolute;
@@ -3091,7 +3091,7 @@ header {
         position: absolute;
         height: 100px;
         width: 150px;
-        left: 100px;
+        left: 40px;
         top: 160px;
         transition: all 0.5s ease;
     }
@@ -3104,7 +3104,7 @@ header {
     .assignmentCaseOneTitle{
         position: relative;
         font-size: 20px;
-        left: 138px;
+        left: 75px;
         top: 220px ;
         color: white;
         transition: all 0.5s ease;
@@ -3114,7 +3114,7 @@ header {
         position: absolute;
         height: 100px;
         width: 150px;
-        left: 325px;
+        left: 220px;
         top: 160px;
         transition: all 0.5s ease;
     }
@@ -3125,7 +3125,7 @@ header {
     .assignmentCaseTwoTitle{
         position: relative;
         font-size: 20px;
-        left: 365px;
+        left: 250px;
         top: 199px ;
         color: white;
         transition: all 0.5s ease;
