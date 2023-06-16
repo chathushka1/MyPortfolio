@@ -4290,7 +4290,7 @@ header {
 /*
 ----------Mobile S Size-----------*/
 
-@media (max-width: 321px){
+@media (max-width: 320px){
 
     .profileImg {
         position: absolute;
