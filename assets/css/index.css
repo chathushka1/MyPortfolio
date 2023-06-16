@@ -1864,7 +1864,7 @@ header {
 }
 
 /*
-----------Table Size-----------*/
+----------Tablet Size-----------*/
 
 @media (max-width: 769px){
 
@@ -2637,25 +2637,58 @@ header {
 
 
 /*
-----------Table Size-----------*/
+----------Mobile L Size-----------*/
 
-@media (max-width: 769px){
+@media (max-width: 426px){
 
     .profileImg {
         position: absolute;
         border-radius: 100%;
-        width: 450px;
-        left: 80px;
-        top: 20px;
+        height: 300px;
+        width: 300px;
+        left: 60px;
+        top: 50px;
         margin: auto;
     }
+
+    #mainPage .name1 {
+
+        position: absolute;
+        font-size: 50px;
+        color: #A27B5C;
+        left: 85px;
+        top: 320px;
+        transition: all 0.5s ease;
+    }
+    #mainPage .name1:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    .social-media img{
+        width: 40px;
+    }
+    #mainPage .name2{
+        position: absolute;
+        font-size: 50px;
+        left: 110px;
+        top:370px;
+        color: #A27B5C;
+        ransition: all 0.8s ease;
+    }
+
+
+    #mainPage .name2:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+
     .gitHubImg{
         position: absolute;
         border-radius: 100%;
-        height: 80px;
-        width: 80px;
+        height: 70px;
+        width: 70px;
         left: 82px;
-        top: 752px;
+        top: 552px;
         margin: auto;
         transition: all 0.5s ease;
     }
@@ -2665,16 +2698,13 @@ header {
         cursor: pointer;
         background-color: #b2d984;
     }
-
-
-
     .whiteCircleGitHub{
         position: absolute;
         border-radius: 100%;
-        width: 84px;
-        height: 84px;
+        width: 74px;
+        height: 74px;
         left: 80px;
-        top: 750px;
+        top: 550px;
         margin: auto;
         background: white;
         transition: all 0.5s ease;
@@ -2687,10 +2717,10 @@ header {
     .facebookImg{
         position: absolute;
         border-radius: 100%;
-        height: 80px;
-        width: 80px;
-        left: 302px;
-        top: 752px;
+        height: 70px;
+        width: 70px;
+        left: 252px;
+        top: 552px;
         margin: auto;
         transition: all 0.5s ease;
     }
@@ -2702,10 +2732,10 @@ header {
     .whiteCircleFB{
         position: absolute;
         border-radius: 100%;
-        width: 84px;
-        height: 84px;
-        left: 300px;
-        top: 750px;
+        width: 74px;
+        height: 74px;
+        left: 250px;
+        top: 550px;
         margin: auto;
         background: white;
         transition: all 0.5s ease;
@@ -2716,10 +2746,10 @@ header {
     .twitterImage{
         position: absolute;
         border-radius: 100%;
-        height: 80px;
-        width:80px;
-        left: 532px;
-        top: 752px;
+        height: 70px;
+        width:70px;
+        left: 82px;
+        top: 702px;
         margin: auto;
         transition: all 0.5s ease;
     }
@@ -2731,10 +2761,10 @@ header {
     .whiteCircleTwitter {
         position: absolute;
         border-radius: 100%;
-        width: 84px;
-        height: 84px;
-        left: 530px;
-        top: 750px;
+        width: 74px;
+        height: 74px;
+        left: 80px;
+        top: 700px;
         margin: auto;
         background: white;
         transition: all 0.5s ease;
@@ -2747,8 +2777,8 @@ header {
         border-radius: 100%;
         height: 75px;
         width: 75px;
-        left: 82px;
-        top: 902px;
+        left: 252px;
+        top: 702px;
         margin: auto;
         transition: all 0.5s ease;
     }
@@ -2762,8 +2792,8 @@ header {
         border-radius: 100%;
         width: 79px;
         height: 79px;
-        left: 80px;
-        top: 900px;
+        left: 250px;
+        top: 700px;
         margin: auto;
         background: white;
         transition: all 0.5s ease;
@@ -2774,10 +2804,10 @@ header {
     .instergramImg{
         position: absolute;
         border-radius: 100%;
-        height: 80px;
-        width: 80px;
-        left: 302px;
-        top: 902px;
+        height: 70px;
+        width: 70px;
+        left: 82px;
+        top: 852px;
         margin: auto;
         transition: all 0.5s ease;
     }
@@ -2789,10 +2819,10 @@ header {
     .whiteCircleInstergram{
         position: absolute;
         border-radius: 100%;
-        width: 84px;
-        height: 84px;
-        left: 300px;
-        top: 900px;
+        width: 74px;
+        height: 74px;
+        left: 80px;
+        top: 850px;
         margin: auto;
         background: white;
         transition: all 0.5s ease;
@@ -2803,10 +2833,10 @@ header {
     .whatsappImage{
         position: absolute;
         border-radius: 100%;
-        height: 80px;
-        width: 80px;
-        left: 532px;
-        top: 902px;
+        height: 70px;
+        width: 70px;
+        left: 252px;
+        top: 852px;
         margin: auto;
         transition: all 0.5s ease;
     }
@@ -2818,10 +2848,10 @@ header {
     .whiteCircleWhatsApp{
         position: absolute;
         border-radius: 100%;
-        width: 84px;
-        height: 84px;
-        left: 530px;
-        top: 900px;
+        width: 74px;
+        height: 74px;
+        left: 250px;
+        top: 850px;
         margin: auto;
         background: white;
         transition: all 0.5s ease;
@@ -2832,7 +2862,7 @@ header {
 
     .square1{
         position: absolute;
-        width: 720px;
+        width: 380px;
         height: 10px;
         left: 20px;
         top: 20px;
@@ -2843,7 +2873,7 @@ header {
         position: absolute;
         width: 10px;
         height: 880px;
-        left: 730px;
+        left: 390px;
         top: 20px;
         margin: auto;
         background: #A27B5C;
@@ -2859,7 +2889,7 @@ header {
     }
     .square4{
         position: absolute;
-        width: 720px;
+        width: 380px;
         height: 10px;
         left: 20px;
         top: 890px;
@@ -2869,49 +2899,64 @@ header {
 
     .bigSquare{
         position: absolute;
-        width: 570px;
+        width: 340px;
         height: 650px;
-        left: 100px;
-        top: 170px;
+        left: 40px;
+        top: 190px;
         margin: auto;
         background: #3F4E4F;
     }
-
+    #About .nameAbout{
+        position: absolute;
+        font-size: 30px;
+        left: 50px;
+        top: 70px ;
+        flex-direction: column;
+        color: #DCD7C9;
+    }
+    #DetailArticle{
+        position: relative;
+        font-size: 25px;
+        left: 54px;
+        top:150px;
+        color: #DCD7C9;
+    }
     #DetailArticle2{
         position: absolute;
         font-size: 20px;
-        left: 140px;
+        left: 50px;
         top:600px;
         color: #DCD7C9;
+        flex-direction: column;
         border: 2px solid red
     }
 
     #Skills .p1{
         position: absolute;
-        font-size: 30px;
+        font-size: 25px;
         color: white;
-        left: 100px;
+        left: 50px;
         flex-direction: column;
-        top: 200px;
+        top: 100px;
     }
 
     .skill-bars li .progress {
 
-        height: 15px;
+        height: 20px;
         width: 50%;
         border-radius: 100vw;
         background: #DCD7C9;
-        top: 400px;
+        top: 600px;
         position: relative;
-        left: 300px;
+        left: 100px;
     }
 
     #Skills .java{
         position: relative;
         font-size: 20px;
         color: white;
-        left: 300px;
-        top:350px;
+        left: 100px;
+        top:550px;
     }
 
     .javaPng{
@@ -2919,7 +2964,7 @@ header {
         height: 90px;
         /* width: 150px;*/
         left: 100px;
-        top:350px;
+        top:320px;
         margin: auto;
         transition: all 0.5s ease;
     }
@@ -2930,8 +2975,8 @@ header {
     .mySqlPng{
         position: absolute;
         height:90px;
-        left: 110px;
-        top:450px;
+        left: 250px;
+        top:320px;
         margin: auto;
         transition: all 0.5s ease;
     }
@@ -2943,7 +2988,7 @@ header {
         position: absolute;
         height: 80px;
         left: 110px;
-        top:550px;
+        top:450px;
         margin: auto;
         transition: all 0.5s ease;
     }
@@ -2954,8 +2999,8 @@ header {
     .htmlPng{
         position: absolute;
         height: 80px;
-        left: 110px;
-        top:650px;
+        left: 250px;
+        top:450px;
         margin: auto;
         transition: all 0.5s ease;
     }
@@ -3000,14 +3045,14 @@ header {
         position: relative;
         font-size: 20px;
         color: white;
-        left: 360px;
+        left: 110px;
         top: 540px;
     }
     .hostelManagementImg{
         position: absolute;
         height: 200px;
         width: 250px;
-        left: 360px;
+        left: 100px;
         top:420px;
         margin: auto;
         animation: animatese 25s  linear infinite;
@@ -3017,7 +3062,7 @@ header {
         position: absolute;
         font-size: 20px;
         color: white;
-        left: 200px;
+        left: 180px;
         top:920px;
         flex-direction: column;
     }
@@ -3025,7 +3070,7 @@ header {
         position: relative;
         height: 200px;
         width: 250px;
-        left: 80px;
+        left: 60px;
         top:580px;
         margin: auto;
         flex-direction: column;
@@ -3035,9 +3080,9 @@ header {
     .toolImg{
         position: absolute;
         border-radius: 100%;
-        height: 530px;
-        width: 530px;
-        left: 100px;
+        height: 350px;
+        width: 350px;
+        left: 40px;
         top:250px;
         margin: auto;
     }
