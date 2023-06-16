@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="assets/css/bootstrap.css">
 
 
-
 </head>
 <style>
      .mb-3{
@@ -87,10 +86,10 @@
                             </div>
 
 
-                            <button id="btnItmSave" type="button" style="width: 150px" class="btn btn-success m-auto m-lg-2 justify-content-center" >Save</button>
-                            <button id="btnItmUpdate" type="button" style="width: 150px" class="btn btn-info m-auto m-lg-2">Update</button>
-                            <button id="btnItmDelete" type="button" style="width: 150px" class="btn btn-danger m-auto m-lg-2">Delete</button>
-                            <button id="btnItmClear" type="button" style="width: 150px" class="btn btn-warning m-auto m-lg-2">Clear</button>
+                            <button id="btnCusSave" type="button" style="width: 150px" class="btn btn-success m-auto m-lg-2 justify-content-center" >Save</button>
+                            <button id="btnCusUpdate" type="button" style="width: 150px" class="btn btn-info m-auto m-lg-2">Update</button>
+                            <button id="btnCusDelete" type="button" style="width: 150px" class="btn btn-danger m-auto m-lg-2">Delete</button>
+                            <button id="btnCusClear" type="button" style="width: 150px" class="btn btn-warning m-auto m-lg-2">Clear</button>
                         </form>
                     </div>
                 </div>
@@ -115,13 +114,9 @@
                         </tr>
                         </thead>
                         <tbody id="tblCustomer">
-                        <!--<tr>
-                            <th scope="row">C001</th>
-                            <td>Chathushka</td>
-                            <td>Galle</td>
-                            <td>0715714771</td>
-                        </tr>
                         <tr>
+                        </tr>
+                       <!-- <tr>
                             <th scope="row">C002</th>
                             <td>Kasun </td>
                             <td>Matara</td>
@@ -138,8 +133,7 @@
                             <td>Kalana </td>
                             <td>Panadura</td>
                             <td>0775845653</td>
-                        </tr>
--->
+                        </tr>-->
 
                         </tbody>
                     </table>
@@ -166,27 +160,27 @@
                         <h2 class="text-danger text-center m-lg-100 pt-3  text-primary" >Item Details</h2>
                         <form class="row p-4 m-0 m-lg-2  justify-content-center">
                             <div class="mb-3">
-                                <label for="exampleInputEmail2" class="text-light bg-dark form-label " id="code">Item Code</label>
+                                <label for="exampleInputEmail2" class="text-light bg-dark form-label " id="txtItemCode">Item Code</label>
                                 <input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp">
                             </div>
                             <div class="mb-3">
-                                <label for="name" class="text-light bg-dark form-label">Item Name</label>
-                                <input type="password" class="form-control" id="name">
+                                <label for="txtItemName" class="text-light bg-dark form-label">Item Name</label>
+                                <input type="password" class="form-control" id="txtItemName">
                             </div>
                             <div class="mb-3">
-                                <label for="qty" class="text-light bg-dark form-label">Qty</label>
-                                <input type="password" class="form-control" id="qty">
+                                <label for="txtItemQty" class="text-light bg-dark form-label">Qty</label>
+                                <input type="password" class="form-control" id="txtItemQty">
                             </div>
                             <div class="mb-3">
-                                <label for="price" class="text-light bg-dark form-label">Unit Price</label>
-                                <input type="password" class="form-control" id="price">
+                                <label for="txtItemPrice" class="text-light bg-dark form-label">Unit Price</label>
+                                <input type="password" class="form-control" id="txtItemPrice">
                             </div>
 
 
-                            <button id="save" type="button" style="width: 150px" class="btn btn-success m-auto m-lg-2 justify-content-center" >Save</button>
-                            <button id="btnUpdate" type="button" style="width: 150px" class="btn btn-info m-auto m-lg-2">Update</button>
-                            <button id="btnDelete" type="button" style="width: 150px" class="btn btn-danger m-auto m-lg-2">Delete</button>
-                            <button id="btnClear" type="button" style="width: 150px" class="btn btn-warning m-auto m-lg-2">Clear</button>
+                            <button id="btnItmSave" type="button" style="width: 150px" class="btn btn-success m-auto m-lg-2 justify-content-center" >Save</button>
+                            <button id="btnItmUpdate" type="button" style="width: 150px" class="btn btn-info m-auto m-lg-2">Update</button>
+                            <button id="btnItmDelete" type="button" style="width: 150px" class="btn btn-danger m-auto m-lg-2">Delete</button>
+                            <button id="btnItmClear" type="button" style="width: 150px" class="btn btn-warning m-auto m-lg-2">Clear</button>
                         </form>
                     </div>
                 </div>
@@ -488,12 +482,10 @@
 
 </div>
 
+
 <script src="assets/js/bootstrap.js"></script>
 <script src="assets/js/jquery-3.6.1.min.js"></script>
-<script src="js.js"></script>
-<script>
+<script src="customer.js"></script>
 
-
-</script>
 </body>
 </html>

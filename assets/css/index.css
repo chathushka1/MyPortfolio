@@ -133,6 +133,7 @@ header {
     top: 20px;
     margin: auto;
 }
+
 .gitHubImg{
     position: absolute;
     border-radius: 100%;
@@ -313,6 +314,7 @@ header {
 .whiteCircleWhatsApp:hover{
     background-color: #3f95d2;
 }
+
 
 .square1{
     position: absolute;
@@ -1131,4 +1133,729 @@ header {
     top: 115px;
     margin: auto;
     background: #3F4E4F;
+}
+
+@media (max-width: 1024px){
+
+    .profileImg {
+        position: absolute;
+        border-radius: 50%;
+        width: 450px;
+        left: 80px;
+        top: 20px;
+        margin: auto;
+    }
+    .gitHubImg{
+        position: absolute;
+        border-radius: 100%;
+        height: 70px;
+        width: 70px;
+        left: 550px;
+        top: 251px;
+        margin: auto;
+        transition: all 0.5s ease;
+    }
+
+    .gitHubImg:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+        background-color: #b2d984;
+    }
+
+
+
+    .whiteCircleGitHub{
+        position: absolute;
+        border-radius: 100%;
+        width: 74px;
+        height: 74px;
+        left: 548px;
+        top: 250px;
+        margin: auto;
+        background: white;
+        transition: all 0.5s ease;
+
+    }
+    .whiteCircleGitHub:hover{
+        background-color: #d23f3f;
+    }
+
+    .facebookImg{
+        position: absolute;
+        border-radius: 100%;
+        height: 70px;
+        width: 70px;
+        left: 700px;
+        top: 253px;
+        margin: auto;
+        transition: all 0.5s ease;
+    }
+    .facebookImg:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+        background-color: #b2d984;
+    }
+    .whiteCircleFB{
+        position: absolute;
+        border-radius: 100%;
+        width: 74px;
+        height: 74px;
+        left: 698px;
+        top: 251px;
+        margin: auto;
+        background: white;
+        transition: all 0.5s ease;
+    }
+    .whiteCircleFB:hover{
+        background-color: #d23f3f;
+    }
+    .twitterImage{
+        position: absolute;
+        border-radius: 100%;
+        height: 70px;
+        width:70px;
+        left: 850px;
+        top: 252px;
+        margin: auto;
+        transition: all 0.5s ease;
+    }
+    .twitterImage:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+        background-color: #b2d984;
+    }
+    .whiteCircleTwitter {
+        position: absolute;
+        border-radius: 100%;
+        width: 74px;
+        height: 74px;
+        left: 848px;
+        top: 250px;
+        margin: auto;
+        background: white;
+        transition: all 0.5s ease;
+    }
+    .whiteCircleTwitter:hover{
+        background-color: #3f95d2;
+    }
+    .linkedInImg{
+        position: absolute;
+        border-radius: 100%;
+        height: 70px;
+        width: 70px;
+        left: 550px;
+        top: 422px;
+        margin: auto;
+        transition: all 0.5s ease;
+    }
+    .linkedInImg:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+        background-color: #b2d984;
+    }
+    .whiteCircleLinkedIn{
+        position: absolute;
+        border-radius: 100%;
+        width: 74px;
+        height: 74px;
+        left: 548px;
+        top: 420px;
+        margin: auto;
+        background: white;
+        transition: all 0.5s ease;
+    }
+    .whiteCircleLinkedIn:hover{
+        background-color: #3f95d2;
+    }
+    .instergramImg{
+        position: absolute;
+        border-radius: 100%;
+        height: 70px;
+        width: 70px;
+        left: 700px;
+        top: 422px;
+        margin: auto;
+        transition: all 0.5s ease;
+    }
+    .instergramImg:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+        background-color: #b2d984;
+    }
+    .whiteCircleInstergram{
+        position: absolute;
+        border-radius: 100%;
+        width: 74px;
+        height: 74px;
+        left: 698px;
+        top: 420px;
+        margin: auto;
+        background: white;
+        transition: all 0.5s ease;
+    }
+    .whiteCircleInstergram:hover{
+        background-color: #3f95d2;
+    }
+    .whatsappImage{
+        position: absolute;
+        border-radius: 100%;
+        height: 70px;
+        width: 70px;
+        left: 850px;
+        top: 420px;
+        margin: auto;
+        transition: all 0.5s ease;
+    }
+    .whatsappImage:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+        background-color: #b2d984;
+    }
+    .whiteCircleWhatsApp{
+        position: absolute;
+        border-radius: 100%;
+        width: 74px;
+        height: 74px;
+        left: 848px;
+        top: 418px;
+        margin: auto;
+        background: white;
+        transition: all 0.5s ease;
+    }
+    .whiteCircleWhatsApp:hover{
+        background-color: #3f95d2;
+    }
+
+    .square1{
+        position: absolute;
+        width: 980px;
+        height: 10px;
+        left: 20px;
+        top: 20px;
+        margin: auto;
+        background: #A27B5C;
+    }
+    .square2{
+        position: absolute;
+        width: 10px;
+        height: 570px;
+        left: 990px;
+        top: 20px;
+        margin: auto;
+        background: #A27B5C;
+    }
+    .square3{
+        position: absolute;
+        width: 10px;
+        height: 570px;
+        left: 20px;
+        top: 20px;
+        margin: auto;
+        background: #A27B5C;
+    }
+    .square4{
+        position: absolute;
+        width: 980px;
+        height: 10px;
+        left: 20px;
+        top: 590px;
+        margin: auto;
+        background: #A27B5C;
+    }
+
+    .bigSquare{
+        position: absolute;
+        width: 840px;
+        height: 362px;
+        left: 100px;
+        top: 170px;
+        margin: auto;
+        background: #3F4E4F;
+    }
+
+    #DetailArticle2{
+        position: absolute;
+        font-size: 20px;
+        left: 440px;
+        top:36vh;
+        color: #DCD7C9;
+        border: 2px solid red
+    }
+
+    #Skills .p1{
+        position: absolute;
+        font-size: 20px;
+        color: white;
+        left: 400px;
+        flex-direction: column;
+        top: 20px;
+    }
+
+    .skill-bars li .progress {
+
+        height: 15px;
+        width: 50%;
+        border-radius: 100vw;
+        background: #DCD7C9;
+        top: 150px;
+        position: relative;
+        left: 430px;
+    }
+
+    #Skills .java{
+        position: relative;
+        font-size: 20px;
+        color: white;
+        left: 430px;
+        top:100px;
+    }
+
+    .javaPng{
+        position: absolute;
+        height: 90px;
+        /* width: 150px;*/
+        left: 220px;
+        top:120px;
+        margin: auto;
+        transition: all 0.5s ease;
+    }
+    .javaPng:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    .mySqlPng{
+        position: absolute;
+        height:90px;
+        left: 225px;
+        top:240px;
+        margin: auto;
+        transition: all 0.5s ease;
+    }
+    .mySqlPng:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    .cssPng{
+        position: absolute;
+        height: 80px;
+        left: 240px;
+        top:360px;
+        margin: auto;
+        transition: all 0.5s ease;
+    }
+    .cssPng:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    .htmlPng{
+        position: absolute;
+        height: 80px;
+        left: 240px;
+        top:470px;
+        margin: auto;
+        transition: all 0.5s ease;
+    }
+    .htmlPng:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+
+    #Project .p3 {
+
+        position: absolute;
+        font-size: 20px;
+        color: white;
+        left: 400px;
+        top:750px;
+        flex-direction: column;
+    }
+    .projectPortfolioImg{
+        position: relative;
+        height: 200px;
+        width: 250px;
+        left: 300px;
+        top:400px;
+        margin: auto;
+        flex-direction: column;
+        animation: animatese 25s  linear infinite;
+    }
+
+    .toolImg{
+        position: absolute;
+        border-radius: 100%;
+        height: 530px;
+        width: 560px;
+        left: 250px;
+        top:200px;
+        margin: auto;
+    }
+
+    .assignmentCaseOneImg{
+        position: absolute;
+        height: 100px;
+        width: 150px;
+        left: 100px;
+        top: 160px;
+        transition: all 0.5s ease;
+    }
+    .assignmentCaseOneImg:hover{
+
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+
+    .assignmentCaseOneTitle{
+        position: relative;
+        font-size: 20px;
+        left: 138px;
+        top: 220px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+    /*.assignmentCaseOneImg .assignmentCaseOneTitle:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }*/
+
+    .assignmentCaseTwoImg{
+        position: absolute;
+        height: 100px;
+        width: 150px;
+        left: 450px;
+        top: 160px;
+        transition: all 0.5s ease;
+    }
+    .assignmentCaseTwoImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+    .assignmentCaseTwoTitle{
+        position: relative;
+        font-size: 20px;
+        left: 490px;
+        top: 199px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+    .assignmentCaseThreeImg{
+        position: absolute;
+        height: 100px;
+        width: 150px;
+        left: 800px;
+        top: 160px;
+        transition: all 0.5s ease;
+    }
+    .assignmentCaseThreeImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+    .assignmentCaseThreeTitle{
+        position: relative;
+        font-size: 20px;
+        left: 820px;
+        top: 176px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+    .assignmentCaseFourImg{
+        position: relative;
+        height: 100px;
+        width: 150px;
+        left: 65px;
+        top: 180px;
+        flex-direction: column;
+        transition: all 0.5s ease;
+    }
+    .assignmentCaseFourImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+    .assignmentCaseFourTitle{
+        position: absolute;
+        font-size: 20px;
+        left: 130px;
+        top: 440px ;
+        color: white;
+        flex-direction: column;
+        transition: all 0.5s ease;
+    }
+
+    .assignmentCaseFiveImg{
+        position: absolute;
+        height: 100px;
+        width: 150px;
+        left: 450px;
+        top: 325px;
+        flex-direction: column;
+        transition: all 0.5s ease;
+    }
+    .assignmentCaseFiveImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+    .assignmentCaseFiveTitle{
+        position: absolute;
+        font-size: 20px;
+        left: 490px;
+        top: 440px ;
+        color: white;
+        flex-direction: column;
+        transition: all 0.5s ease;
+    }
+    .assignmentCaseSixImg{
+        position: absolute;
+        height: 100px;
+        width: 150px;
+        left: 800px;
+        top: 320px;
+        flex-direction: column;
+        transition: all 0.5s ease;
+    }
+    .assignmentCaseSixImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+    .assignmentCaseSixTitle{
+        position: absolute;
+        font-size: 20px;
+        left: 820px;
+        top: 440px ;
+        color: white;
+        flex-direction: column;
+        transition: all 0.5s ease;
+    }
+    .transitionTitle{
+        position: relative;
+        font-size: 30px;
+        left: 100px;
+        top:250px ;
+        color: #c55a5a;
+    }
+    .transitionCaseOneImg{
+        position: absolute;
+        height: 100px;
+        width: 150px;
+        left: 100px;
+        top: 580px;
+        transition: all 0.5s ease;
+    }
+    .transitionCaseOneImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+
+    .transitionCaseOneTitle{
+        position: relative;
+        font-size: 20px;
+        left: 138px;
+        top: 400px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
+    .transitionCaseTwoImg{
+        position: absolute;
+        height: 100px;
+        width: 150px;
+        left: 460px;
+        top: 580px;
+        transition: all 0.5s ease;
+    }
+
+    .transitionCaseTwoTitle{
+        position: relative;
+        font-size: 20px;
+        left: 500px;
+        top: 380px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+    .transitionCaseThreeImg{
+        position: absolute;
+        height: 100px;
+        width: 150px;
+        left: 800px;
+        top: 580px;
+        transition: all 0.5s ease;
+    }
+
+    .transitionCaseThreeTitle{
+        position: relative;
+        font-size: 20px;
+        left: 820px;
+        top: 356px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+    .transitionCaseFourImg{
+        position: relative;
+        height: 100px;
+        width: 150px;
+        left: 65px;
+        top: 320px;
+        flex-direction: column;
+        transition: all 0.5s ease;
+    }
+
+    .transitionCaseFourTitle{
+        position: relative;
+        font-size: 20px;
+        left: 140px;
+        top: 520px ;
+        color: white;
+        flex-direction: column;
+        transition: all 0.5s ease;
+    }
+
+    .transitionCaseFiveImg{
+        position: relative;
+        height: 100px;
+        width: 150px;
+        left: 420px;
+        top: 200px;
+        flex-direction: column;
+        transition: all 0.5s ease;
+    }
+
+    .transitionCaseFiveTitle{
+        position: relative;
+        font-size: 20px;
+        left: 500px;
+        top: 500px ;
+        color: white;
+        flex-direction: column;
+        transition: all 0.5s ease;
+    }
+    .transitionCaseSixImg{
+        position: relative;
+        height: 100px;
+        width: 150px;
+        left: 760px;
+        top: 80px;
+        flex-direction: column;
+        transition: all 0.5s ease;
+    }
+
+    .transitionCaseSixTitle{
+        position: relative;
+        font-size: 20px;
+        left: 820px;
+        top: 480px ;
+        color: white;
+        flex-direction: column;
+        transition: all 0.5s ease;
+    }
+
+    #Contact .call{
+        position: absolute;
+        font-size: 25px;
+        color: #3FD289;
+        top: 280px;
+        left: 180px;
+    }
+    #Contact .call .img{
+        position: absolute;
+        height: 50px;
+        top:-80px;
+        left: -5px;
+        transition: all 0.5s ease;
+    }
+    #Contact .call .img:hover{
+        transform: scale(1.5);
+        cursor: pointer;
+    }
+    #Contact .number{
+        position: absolute;
+        font-size: 25px;
+        color: #3FD289;
+        top: 50px;
+        left: -40px;
+    }
+    #Contact .whatsapp{
+        position: absolute;
+        font-size: 25px;
+        color: #3FD289;
+        left: 350px;
+        top: 280px;
+    }
+    #Contact .whatsapp .img{
+        position: absolute;
+        height: 50px;
+        top:-80px;
+        left: 25px;
+        transition: all 0.5s ease;
+    }
+    #Contact .whatsapp .img:hover{
+        transform: scale(1.5);
+        cursor: pointer;
+    }
+    #Contact .whatsappNumber{
+        position: absolute;
+        font-size: 25px;
+        color: #3FD289;
+        top: 50px;
+        left: -10px;
+    }
+    #Contact .email{
+        position: absolute;
+        font-size: 25px;
+        color: #3FD289;
+        left: 600px;
+        top: 280px;
+    }
+    #Contact .email .img{
+        position: absolute;
+        height: 50px;
+        top:-80px;
+        left: 5px;
+        transition: all 0.5s ease;
+    }
+
+    #Contact .email .img:hover{
+        transform: scale(1.5);
+        cursor: pointer;
+    }
+    #Contact .emailAddress{
+        position: absolute;
+        font-size: 25px;
+        color: #3FD289;
+        top: 50px;
+        left: -75px;
+    }
+
+    #Contact .location{
+        position: absolute;
+        font-size: 25px;
+        color: #3FD289;
+        left: 830px;
+        top: 280px;
+    }
+    #Contact .location .img{
+        position: absolute;
+        height: 50px;
+        top:-80px;
+        left: 17px;
+        transition: all 0.5s ease;
+    }
+    #Contact .location .img:hover{
+        transform: scale(1.5);
+        cursor: pointer;
+    }
+    #Contact .locationGalle{
+        position: absolute;
+        font-size: 25px;
+        color: #3FD289;
+        top: 50px;
+        left: 15px;
+    }
+
+    #Contact .bigSquare {
+        position: absolute;
+        width: 850px;
+        height: 362px;
+        left: 100px;
+        top: 115px;
+        margin: auto;
+        background: #3F4E4F;
+    }
 }
