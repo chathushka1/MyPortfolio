@@ -1,0 +1,23 @@
+.calculator {
+    width: 240px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.calculator input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.calculator .keypad button {
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+}
+.bgColour{
+    background-color:#1a1d20  ;
+}
+.h1Colour{
+    color:#3FD289  ;
+}
