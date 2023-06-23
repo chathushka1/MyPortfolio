@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.css">
 
 
+
 </head>
 <style>
      .mb-3{
@@ -160,20 +161,20 @@
                         <h2 class="text-danger text-center m-lg-100 pt-3  text-primary" >Item Details</h2>
                         <form class="row p-4 m-0 m-lg-2  justify-content-center">
                             <div class="mb-3">
-                                <label for="exampleInputEmail2" class="text-light bg-dark form-label " id="txtItemCode">Item Code</label>
-                                <input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp">
+                                <label for="txtItemCode" class="text-light bg-dark form-label " >Item Code</label>
+                                <input type="text" class="form-control" id="txtItemCode" aria-describedby="emailHelp">
                             </div>
                             <div class="mb-3">
                                 <label for="txtItemName" class="text-light bg-dark form-label">Item Name</label>
-                                <input type="password" class="form-control" id="txtItemName">
+                                <input type="text" class="form-control" id="txtItemName">
                             </div>
                             <div class="mb-3">
                                 <label for="txtItemQty" class="text-light bg-dark form-label">Qty</label>
-                                <input type="password" class="form-control" id="txtItemQty">
+                                <input type="text" class="form-control" id="txtItemQty">
                             </div>
                             <div class="mb-3">
                                 <label for="txtItemPrice" class="text-light bg-dark form-label">Unit Price</label>
-                                <input type="password" class="form-control" id="txtItemPrice">
+                                <input type="text" class="form-control" id="txtItemPrice">
                             </div>
 
 
@@ -203,32 +204,12 @@
                             <th style="background-color: #fd7e14" scope="col">Price</th>
                         </tr>
                         </thead>
-                        <tbody>
-                        <!--<tr>
-                            <th scope="row">I001</th>
-                            <td>Soap</td>
-                            <td>500</td>
-                            <td>150</td>
-                        </tr>
+                        <tbody id="tblItem">
+
                         <tr>
-                            <th scope="row">I002</th>
-                            <td>Ice Cream</td>
-                            <td>450</td>
-                            <td>180</td>
+
                         </tr>
-                        <tr>
-                            <th scope="row">I003</th>
-                            <td>Biscuit</td>
-                            <td>2500</td>
-                            <td>200</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">I004</th>
-                            <td>Chocolate</td>
-                            <td>800</td>
-                            <td>500</td>
-                        </tr>
--->
+
 
                         </tbody>
                     </table>
@@ -482,12 +463,11 @@
 
 </div>
 
-
 <script src="assets/js/bootstrap.js"></script>
 <script src="assets/js/jquery-3.6.1.min.js"></script>
 <script src="customer.js"></script>
-
 <script src="item.js"></script>
+
 
 </body>
 </html>

@@ -91,7 +91,7 @@ $("#btnCusSave").click(function (){
     customers.push(customerObject);
 
     loadAllCustomers();
-    loadAllCustomerId();
+    //loadAllCustomerId();
     bindRowClickEvents();
 });
 

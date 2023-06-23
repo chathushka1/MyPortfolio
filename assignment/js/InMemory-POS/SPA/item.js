@@ -75,23 +75,23 @@ $("#placeOrders").click(function () {
 var items=[];
 
 $("#btnItmSave").click(function (){
-    let itemCode=$("#txtItemCode").val();
-    let itemName=$("#txtItemName").val();
-    let itemQty=$("#txtItemQty").val();
-    let itemPrice=$("#txtItemPrice").val();
+    let itemCodes=$("#txtItemCode").val();
+    let itemNames=$("#txtItemName").val();
+    let itemQtys=$("#txtItemQty").val();
+    let itemPrices=$("#txtItemPrice").val();
 
     var itemObject={
-        itmCode:itemCode,
-        itmName:itemName,
-        itmQty:itemQty,
-        itmPrice:itemPrice
+        itemId:itemCodes,
+        descriptions:itemNames,
+        qty:itemQtys,
+        unitprice:itemPrices
 
     }
 
     items.push(itemObject);
 
     loadAllItems();
-    loadAllItemId();
+  /*  loadAllItemId();*/
 
     bindRowClickEventsItems();
 });
@@ -99,15 +99,16 @@ $("#btnItmSave").click(function (){
 
 function bindRowClickEventsItems() {
     $("#tblItem>tr").click(function () {
-        let itemCode = $(this).children(":eq(0)").text();
-        let itemName = $(this).children(":eq(1)").text();
-        let itemQty = $(this).children(":eq(2)").text();
-        let itemPrice = $(this).children(":eq(3)").text();
+        let itemCodes = $(this).children(":eq(0)").text();
+        let itemNames = $(this).children(":eq(1)").text();
+        let itemQtys = $(this).children(":eq(2)").text();
+        let itemPrices = $(this).children(":eq(3)").text();
 
-        $('#txtItemCode').val(itemCode);
-        $('#txtItemName').val(itemName);
-        $('#txtItemQty').val(itemQty);
-        $('#txtItemPrice').val(itemPrice);
+        $('#txtItemCode').val(itemCodes);
+        $('#txtItemName').val(itemNames);
+        $('#txtItemQty').val(itemQtys);
+        $('#txtItemPrice').val(itemPrices);
+
 
     });
 }
@@ -118,14 +119,14 @@ function loadAllItems() {
     $("#tblItem").empty();
 
     for (var item of items) {
-        var row = `<tr><td>${item.itmCode}</td><td>${item.itmName}</td><td>${item.itmQty}</td><td>${item.itmPrice}</td></tr>`;
+        var row = `<tr><td>${item.itemId}</td><td>${item.descriptions}</td><td>${item.qty}</td><td>${item.unitprice}</td></tr>`;
 
         $("#tblItem").append(row);
     }
 }
 
 
-$("#btnItemDelete").click(function (){
+$("#btnItmDelete").click(function (){
     /*bindRowClickEventsItems();*/
     let deleteIds=$("#txtItemCode").val();
 
@@ -140,7 +141,7 @@ $("#btnItemDelete").click(function (){
     }
 });
 
-$("#btnClearItem").click(function (){
+$("#btnItmClear").click(function (){
     $('#txtItemCode').val("");
     $('#txtItemName').val("");
     $('#txtItemQty').val("");
@@ -148,7 +149,7 @@ $("#btnClearItem").click(function (){
 });
 
 
-$("#btnItemUpdate").click(function () {
+$("#btnItmUpdate").click(function () {
     /* bindRowClickEventsItems();*/
     let ItemId = $("#txtItemCode").val();
     let responses = updateItem(ItemId);
@@ -167,7 +168,7 @@ $("#txtItemCode").on('keyup', function (event) {
         let typedIds = $("#txtItemCode").val();
         let item = searchItem(typedIds);
         if (item != null) {
-            setTextfieldValuesItem(item.itmCode, item.itmName, item.itmQty, item.itmPrice);
+            setTextfieldValuesItem(item.itemId, item.descriptions, item.qty, item.unitprice);
         } else {
             alert("There is no cusotmer available for that " + typedIds);
             setTextfieldValuesItem("", "", "", "");
@@ -187,12 +188,13 @@ function deleteItem(ItemID) {
     }
 }
 
-function setTextfieldValuesItem(itemCode, itemName, itemQty, itemPrice) {
+function setTextfieldValuesItem(itemId, descriptions,qty,unitprice) {
     bindRowClickEventsItems();
     $("#txtItemId").val(itemId);
     $("#txtItemDescription").val(descriptions);
-    $("#txtItemUnitprice").val(unitprice);
     $("#txtItemQty").val(qty);
+    $("#txtItemUnitprice").val(unitprice);
+
 }
 
 
@@ -208,10 +210,11 @@ function searchItem(itemID) {
 function updateItem(Items) {
     let item = searchItem(Items);
     if (item != null) {
-        item.itemId = $("#txtItemId").val();
-        item.descriptions = $("#txtItemDescription").val();
-        item.unitprice = $("#txtItemUnitprice").val();
+        item.itemId = $("#txtItemCode").val();
+        item.descriptions = $("#txtItemName").val();
         item.qty = $("#txtItemQty").val();
+        item.unitprice = $("#txtItemPrice").val();
+
         loadAllItems();
         return true;
     } else {
