@@ -139,7 +139,7 @@ function checkCusValidityItem() {
             setItemTextError(validation.field, validation.error);
         }
     }
-    setItemButtonState(errorCount);
+   /* setItemButtonState(errorCount);*/
 }
 
 function checkItem(regex, txtField) {

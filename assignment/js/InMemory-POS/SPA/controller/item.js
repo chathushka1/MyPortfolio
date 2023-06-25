@@ -103,7 +103,7 @@ function saveItem(){
     items.push(newItem);
 
     loadAllItems();
-    /*  loadAllItemId();*/
+      loadAllItemId();
 
     bindRowClickEventsItems();
     clearCustomerInputFields();
@@ -243,4 +243,14 @@ function clearCustomerInputFields() {
     $("#txtItemCode,#txtItemName,#txtItemQty,#txtItemPrice").css("border", "1px solid #ced4da");
     $("#txtItemCode").focus();
     setBtn();
+}
+function addTable() {
+    $("#tblItem> tr").detach();
+
+    for (var itm of itemAr){
+        var row="<tr><td>"+itm.itemId+"</td><td>"+itm.itmNames+"</td><td>"+itm.unitprice+"</td><td>"+itm.qty+"</td></tr>";
+        $('#tblItem').append(row);
+    }
+    // trSelector();
+
 }
