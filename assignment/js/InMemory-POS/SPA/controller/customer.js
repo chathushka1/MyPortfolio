@@ -72,28 +72,42 @@ $("#placeOrders").click(function () {
 });
 
 
-var customers=[];
+//var customers=[];
 
 $("#btnCusSave").click(function (){
+    saveCustomer();
+});
+
+function saveCustomer(){
     let cusId=$("#txtCustomerID").val();
+    if (searchCustomer(cusId.trim()) == undefined) {
     let cusName=$("#txtCustomerName").val();
     let cusAddress=$("#txtCustomerAddress").val();
     let cusSalary=$("#txtCustomerSalary").val();
 
-    var customerObject={
-        id:cusId,
-        name:cusName,
-        address:cusAddress,
-        salary:cusSalary
+    /* var customerObject={
+         id:cusId,
+         name:cusName,
+         address:cusAddress,
+         salary:cusSalary
 
-    }
+     }*/
+    let newCustomer= Object.assign({},customerObject);
+    newCustomer.id=cusId;
+    newCustomer.name=cusName;
+    newCustomer.address=cusAddress;
+    newCustomer.salary=cusSalary;
 
-    customers.push(customerObject);
+    customers.push(newCustomer);
 
     loadAllCustomers();
     //loadAllCustomerId();
     bindRowClickEvents();
-});
+    clearCustomerInputFields();
+    } else {
+        alert("Customer already exits.!");
+    }
+}
 
 
 function bindRowClickEvents() {
