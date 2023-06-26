@@ -559,14 +559,14 @@ header {
     font-size: 20px;
     color: white;
     left: 130px;
-    top: 300px;
+    top: 395px;
 }
 .gaganaInvestmentImg{
     position: absolute;
     height: 200px;
     width: 250px;
     left: 150px;
-    top:131px;
+    top:217px;
     margin: auto;
    /* animation: animatesd 5s linear infinite;*/
     animation: animatese 25s  linear infinite;
@@ -608,14 +608,14 @@ header {
     font-size: 20px;
     color: white;
     left: 560px;
-    top: 300px;
+    top: 350px;
 }
 .hostelManagementImg{
     position: absolute;
     height: 200px;
     width: 250px;
     left: 550px;
-    top:172px;
+    top:217px;
     margin: auto;
     animation: animatese 25s  linear infinite;
 }
@@ -624,7 +624,7 @@ header {
     position: relative;
     font-size: 20px;
     color: white;
-    left: 1015px;
+    left: 1005px;
     top:300px;
 }
 .projectPortfolioImg{
@@ -971,7 +971,7 @@ header {
     position: absolute;
     height: 200px;
     width: 150px;
-    left: 320px;
+    left: 350px;
     top: 150px;
     transition: all 0.5s ease;
 }
@@ -983,7 +983,7 @@ header {
 .KnightRiderTitle{
     position: relative;
     font-size: 20px;
-    left: 340px;
+    left: 375px;
     top: 325px ;
     color: white;
     transition: all 0.5s ease;
@@ -993,7 +993,7 @@ header {
     position: absolute;
     height: 200px;
     width: 150px;
-    left: 530px;
+    left: 600px;
     top: 150px;
     transition: all 0.5s ease;
 }
@@ -1005,7 +1005,7 @@ header {
 .QueTitle{
     position: relative;
     font-size: 20px;
-    left: 580px;
+    left: 660px;
     top: 300px ;
     color: white;
     transition: all 0.5s ease;
@@ -1015,7 +1015,7 @@ header {
     position: absolute;
     height: 200px;
     width: 150px;
-    left: 750px;
+    left: 850px;
     top: 150px;
     transition: all 0.5s ease;
 }
@@ -1027,7 +1027,7 @@ header {
 .PosSystemTitle{
     position: relative;
     font-size: 20px;
-    left:780px;
+    left:880px;
     top: 275px ;
     color: white;
     transition: all 0.5s ease;
@@ -1037,7 +1037,7 @@ header {
     position: absolute;
     height: 200px;
     width: 150px;
-    left: 950px;
+    left: 1100px;
     top: 150px;
     transition: all 0.5s ease;
 }
@@ -1049,7 +1049,7 @@ header {
 .SpaPosTitle{
     position: relative;
     font-size: 20px;
-    left:950px;
+    left:1110px;
     top: 250px ;
     color: white;
     transition: all 0.5s ease;
@@ -1863,6 +1863,116 @@ header {
         flex-direction: column;
         transition: all 0.5s ease;
     }
+    .calculatorImg{
+        position: absolute;
+        height: 200px;
+        width: 150px;
+        left: 100px;
+        top: 150px;
+        transition: all 0.5s ease;
+    }
+    .calculatorImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+
+    .calculatorTitle{
+        position: relative;
+        font-size: 20px;
+        left: 138px;
+        top: 350px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
+    .knightRiderImg{
+        position: absolute;
+        height: 200px;
+        width: 150px;
+        left: 350px;
+        top: 150px;
+        transition: all 0.5s ease;
+    }
+    .knightRiderImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+
+    .KnightRiderTitle{
+        position: relative;
+        font-size: 20px;
+        left: 375px;
+        top: 325px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
+    .queImg{
+        position: absolute;
+        height: 200px;
+        width: 150px;
+        left: 600px;
+        top: 150px;
+        transition: all 0.5s ease;
+    }
+    .queImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+
+    .QueTitle{
+        position: relative;
+        font-size: 20px;
+        left: 660px;
+        top: 300px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
+    .posSystemImg{
+        position: absolute;
+        height: 200px;
+        width: 150px;
+        left: 100px;
+        top: 500px;
+        transition: all 0.5s ease;
+    }
+    .posSystemImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+
+    .PosSystemTitle{
+        position: relative;
+        font-size: 20px;
+        left:130px;
+        top: 630px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
+    .spaPosImg{
+        position: absolute;
+        height: 200px;
+        width: 150px;
+        left: 350px;
+        top: 500px;
+        transition: all 0.5s ease;
+    }
+    .spaPosImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+
+    .SpaPosTitle{
+        position: relative;
+        font-size: 20px;
+        left:360px;
+        top: 610px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
 
     #Contact .call{
         position: absolute;
@@ -2635,6 +2745,117 @@ header {
         flex-direction: column;
         transition: all 0.5s ease;
     }
+
+    .calculatorImg{
+        position: absolute;
+        height: 200px;
+        width: 150px;
+        left: 100px;
+        top: 150px;
+        transition: all 0.5s ease;
+    }
+    .calculatorImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+
+    .calculatorTitle{
+        position: relative;
+        font-size: 20px;
+        left: 138px;
+        top: 350px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
+    .knightRiderImg{
+        position: absolute;
+        height: 200px;
+        width: 150px;
+        left: 325px;
+        top: 150px;
+        transition: all 0.5s ease;
+    }
+    .knightRiderImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+
+    .KnightRiderTitle{
+        position: relative;
+        font-size: 20px;
+        left: 355px;
+        top: 325px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
+    .queImg{
+        position: absolute;
+        height: 200px;
+        width: 150px;
+        left: 550px;
+        top: 150px;
+        transition: all 0.5s ease;
+    }
+    .queImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+
+    .QueTitle{
+        position: relative;
+        font-size: 20px;
+        left: 600px;
+        top: 300px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
+    .posSystemImg{
+        position: absolute;
+        height: 200px;
+        width: 150px;
+        left: 100px;
+        top: 500px;
+        transition: all 0.5s ease;
+    }
+    .posSystemImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+
+    .PosSystemTitle{
+        position: relative;
+        font-size: 20px;
+        left:130px;
+        top: 630px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
+    .spaPosImg{
+        position: absolute;
+        height: 200px;
+        width: 150px;
+        left: 325px;
+        top: 500px;
+        transition: all 0.5s ease;
+    }
+    .spaPosImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+
+    .SpaPosTitle{
+        position: relative;
+        font-size: 20px;
+        left:330px;
+        top: 610px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
 
     #Contact .call{
         position: absolute;
@@ -3445,6 +3666,125 @@ header {
         color: white;
         transition: all 0.5s ease;
     }
+    .jsTitle{
+        position: relative;
+        font-size: 30px;
+        left: 120px;
+        top: 160px ;
+        color: #c55a5a;
+    }
+    .calculatorImg{
+        position: absolute;
+        height: 175px;
+        width: 125px;
+        left: 40px;
+        top: 200px;
+        transition: all 0.5s ease;
+    }
+    .calculatorImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+
+    .calculatorTitle{
+        position: relative;
+        font-size: 20px;
+        left: 60px;
+        top: 375px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
+    .knightRiderImg{
+        position: absolute;
+        height: 175px;
+        width: 125px;
+        left: 220px;
+        top: 200px;
+        transition: all 0.5s ease;
+    }
+    .knightRiderImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+
+    .KnightRiderTitle{
+        position: relative;
+        font-size: 20px;
+        left: 230px;
+        top: 355px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
+    .queImg{
+        position: absolute;
+        height: 175px;
+        width: 125px;
+        left: 40px;
+        top: 480px;
+        transition: all 0.5s ease;
+    }
+    .queImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+
+    .QueTitle{
+        position: relative;
+        font-size: 20px;
+        left: 85px;
+        top: 600px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
+    .posSystemImg{
+        position: absolute;
+        height: 175px;
+        width: 125px;
+        left: 220px;
+        top: 480px;
+        transition: all 0.5s ease;
+    }
+    .posSystemImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+
+    .PosSystemTitle{
+        position: relative;
+        font-size: 20px;
+        left:240px;
+        top: 580px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
+    .spaPosImg{
+        position: absolute;
+        height: 175px;
+        width: 125px;
+        left: 40px;
+        top: 750px;
+        transition: all 0.5s ease;
+    }
+    .spaPosImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+
+    .SpaPosTitle{
+        position: relative;
+        font-size: 20px;
+        left:40px;
+        top: 820px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
+
+
 
     #Gallary .backgroundIMG{
         /*background-image: url("../image/Back.jpg");*/
@@ -4270,6 +4610,125 @@ header {
         transition: all 0.5s ease;
     }
 
+    .jsTitle{
+        position: relative;
+        font-size: 30px;
+        left: 120px;
+        top: 160px ;
+        color: #c55a5a;
+    }
+    .calculatorImg{
+        position: absolute;
+        height: 175px;
+        width: 125px;
+        left: 40px;
+        top: 200px;
+        transition: all 0.5s ease;
+    }
+    .calculatorImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+
+    .calculatorTitle{
+        position: relative;
+        font-size: 20px;
+        left: 60px;
+        top: 375px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
+    .knightRiderImg{
+        position: absolute;
+        height: 175px;
+        width: 125px;
+        left: 220px;
+        top: 200px;
+        transition: all 0.5s ease;
+    }
+    .knightRiderImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+
+    .KnightRiderTitle{
+        position: relative;
+        font-size: 20px;
+        left: 230px;
+        top: 355px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
+    .queImg{
+        position: absolute;
+        height: 175px;
+        width: 125px;
+        left: 40px;
+        top: 480px;
+        transition: all 0.5s ease;
+    }
+    .queImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+
+    .QueTitle{
+        position: relative;
+        font-size: 20px;
+        left: 85px;
+        top: 600px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
+    .posSystemImg{
+        position: absolute;
+        height: 175px;
+        width: 125px;
+        left: 220px;
+        top: 480px;
+        transition: all 0.5s ease;
+    }
+    .posSystemImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+
+    .PosSystemTitle{
+        position: relative;
+        font-size: 20px;
+        left:240px;
+        top: 580px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
+    .spaPosImg{
+        position: absolute;
+        height: 175px;
+        width: 125px;
+        left: 40px;
+        top: 750px;
+        transition: all 0.5s ease;
+    }
+    .spaPosImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+
+    .SpaPosTitle{
+        position: relative;
+        font-size: 20px;
+        left:40px;
+        top: 820px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
+
+
     #Gallary .backgroundIMG{
         /*background-image: url("../image/Back.jpg");*/
         height: 60vh;
@@ -5091,6 +5550,122 @@ header {
         font-size: 20px;
         left: 210px;
         top: 1120px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+    .jsTitle{
+        position: relative;
+        font-size: 30px;
+        left: 120px;
+        top: 160px ;
+        color: #c55a5a;
+    }
+    .calculatorImg{
+        position: absolute;
+        height: 175px;
+        width: 125px;
+        left: 40px;
+        top: 200px;
+        transition: all 0.5s ease;
+    }
+    .calculatorImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+
+    .calculatorTitle{
+        position: relative;
+        font-size: 20px;
+        left: 60px;
+        top: 375px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
+    .knightRiderImg{
+        position: absolute;
+        height: 175px;
+        width: 125px;
+        left: 180px;
+        top: 200px;
+        transition: all 0.5s ease;
+    }
+    .knightRiderImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+
+    .KnightRiderTitle{
+        position: relative;
+        font-size: 20px;
+        left: 190px;
+        top: 355px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
+    .queImg{
+        position: absolute;
+        height: 175px;
+        width: 125px;
+        left: 40px;
+        top: 480px;
+        transition: all 0.5s ease;
+    }
+    .queImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+
+    .QueTitle{
+        position: relative;
+        font-size: 20px;
+        left: 85px;
+        top: 600px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
+    .posSystemImg{
+        position: absolute;
+        height: 175px;
+        width: 125px;
+        left: 180px;
+        top: 480px;
+        transition: all 0.5s ease;
+    }
+    .posSystemImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+
+    .PosSystemTitle{
+        position: relative;
+        font-size: 20px;
+        left:190px;
+        top: 580px ;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
+    .spaPosImg{
+        position: absolute;
+        height: 175px;
+        width: 125px;
+        left: 40px;
+        top: 750px;
+        transition: all 0.5s ease;
+    }
+    .spaPosImg:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+
+    .SpaPosTitle{
+        position: relative;
+        font-size: 20px;
+        left:40px;
+        top: 820px ;
         color: white;
         transition: all 0.5s ease;
     }
