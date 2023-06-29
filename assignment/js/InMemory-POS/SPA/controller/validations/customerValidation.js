@@ -11,22 +11,22 @@ $("#txtCustomerID").focus();
 customerValideaction.push({
     reg: cusIDRegex,
     field: $('#txtCustomerID'),
-    error: 'Customer ID Pattern is Wrong : C00-001'
+
 });
 customerValideaction.push({
     reg: cusNameRegex,
     field: $('#txtCustomerName'),
-    error: 'Customer Name Pattern is Wrong : Kamal'
+
 });
 customerValideaction.push({
     reg: cusAddressRegex,
     field: $('#txtCustomerAddress'),
-    error: 'Customer Address Pattern is Wrong : Galle'
+
 });
 customerValideaction.push({
     reg: cusSalaryRegex,
     field: $('#txtCustomerSalary'),
-    error: 'Customer Salary Pattern is Wrong : 25000'
+
 });
 
 
